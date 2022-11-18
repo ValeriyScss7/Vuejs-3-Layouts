@@ -39,6 +39,7 @@
 
         &__card {
             max-width: 256px;
+            cursor: pointer;
 
             & .crypt {
                 margin-top: 21px;
@@ -122,6 +123,11 @@
                     color: #353945;
                 }
             }
+        }
+
+        &__card:hover{
+            transition: 1s;
+            filter: brightness(50%);
         }
     }
 }

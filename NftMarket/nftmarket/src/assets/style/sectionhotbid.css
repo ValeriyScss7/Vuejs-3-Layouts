@@ -33,6 +33,7 @@
 }
 .hotBid__cardbox__card {
   max-width: 256px;
+  cursor: pointer;
 }
 .hotBid__cardbox__card .crypt {
   margin-top: 21px;
@@ -108,4 +109,8 @@
   font-size: 12px;
   line-height: 20px;
   color: #353945;
+}
+.hotBid__cardbox__card:hover {
+  transition: 1s;
+  filter: brightness(50%);
 }/*# sourceMappingURL=sectionhotbid.css.map */

@@ -56,6 +56,12 @@
 
             & .nftImage {
                 position: relative;
+                cursor: pointer;
+
+                & img:hover{
+                    transition: 1s;
+                    filter: brightness(50%);
+                }
 
                 & audio {
                     width: 624px;
@@ -67,7 +73,9 @@
                     left: 11px;
                     cursor: pointer;
                 }
+                
             }
+            
 
             & .nftDescription {
                 max-width: 352px;

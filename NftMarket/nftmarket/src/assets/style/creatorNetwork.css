@@ -49,6 +49,11 @@
 }
 .creatorNetwork__wrap .creator .nftImage {
   position: relative;
+  cursor: pointer;
+}
+.creatorNetwork__wrap .creator .nftImage img:hover {
+  transition: 1s;
+  filter: brightness(50%);
 }
 .creatorNetwork__wrap .creator .nftImage audio {
   width: 624px;

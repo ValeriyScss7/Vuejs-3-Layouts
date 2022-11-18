@@ -5,7 +5,7 @@ footer {
 
 .footer__wrap__top {
   display: flex;
-  gap: 10%;
+  gap: 8%;
 }
 .footer__wrap__top .category .logo {
   display: flex;

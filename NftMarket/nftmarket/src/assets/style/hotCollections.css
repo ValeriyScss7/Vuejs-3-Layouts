@@ -18,6 +18,7 @@
   padding-bottom: 124px;
 }
 .hotCollections .items__item {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -59,4 +60,8 @@
   border-radius: 4px;
   padding: 7px;
   margin-left: 110px;
+}
+.hotCollections .items__item:hover {
+  transition: 1s;
+  filter: brightness(50%);
 }/*# sourceMappingURL=hotCollections.css.map */

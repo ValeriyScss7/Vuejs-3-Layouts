@@ -1,0 +1,415 @@
+.creatorNetwork__wrap .heading {
+  padding-top: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.creatorNetwork__wrap .heading p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #777E91;
+  margin-bottom: 8px;
+}
+.creatorNetwork__wrap .heading h1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #23262F;
+  margin-bottom: 24px;
+}
+.creatorNetwork__wrap .heading a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #23262F;
+  padding: 16px 24px;
+  border: 2px solid #E6E8EC;
+  border-radius: 90px;
+  margin-bottom: 100px;
+}
+.creatorNetwork__wrap .heading a:hover {
+  transition: 1s;
+  background: #E6E8EC;
+}
+.creatorNetwork__wrap .creator {
+  display: flex;
+  gap: 128px;
+}
+.creatorNetwork__wrap .creator .nftImage {
+  position: relative;
+}
+.creatorNetwork__wrap .creator .nftImage audio {
+  width: 624px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  bottom: 13px;
+  left: 11px;
+  cursor: pointer;
+}
+.creatorNetwork__wrap .creator .nftDescription {
+  max-width: 352px;
+}
+.creatorNetwork__wrap .creator .nftDescription h2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #23262F;
+  margin-bottom: 20px;
+  max-width: 352px;
+}
+.creatorNetwork__wrap .creator .nftDescription__items {
+  display: flex;
+  gap: 65px;
+}
+.creatorNetwork__wrap .creator .nftDescription__items .item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.creatorNetwork__wrap .creator .nftDescription__items .item__text {
+  display: flex;
+  flex-direction: column;
+}
+.creatorNetwork__wrap .creator .nftDescription__items .item__text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777E91;
+}
+.creatorNetwork__wrap .creator .nftDescription__items .item__text span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262F;
+}
+.creatorNetwork__wrap .creator .nftDescription .time {
+  margin-top: 40px;
+  background: #FCFCFD;
+  border: 2px solid #E6E8EC;
+  box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+  border-radius: 24px;
+  padding: 32px 60px;
+  box-sizing: border-box;
+}
+.creatorNetwork__wrap .creator .nftDescription .time .head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #23262F;
+}
+.creatorNetwork__wrap .creator .nftDescription .time .eth {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #141416;
+}
+.creatorNetwork__wrap .creator .nftDescription .time .price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #777E91;
+  margin-bottom: 24px;
+}
+.creatorNetwork__wrap .creator .nftDescription .time .timeRemaining {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.creatorNetwork__wrap .creator .nftDescription .time .timeRemaining__item .times {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #141416;
+}
+.creatorNetwork__wrap .creator .nftDescription .time .timeRemaining__item span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #777E91;
+}
+.creatorNetwork__wrap .creator .nftDescription .blueLink {
+  margin-top: 40px;
+  display: block;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #FCFCFD;
+  background: #3772FF;
+  border-radius: 90px;
+  margin-bottom: 8px;
+  padding: 16px 0px;
+}
+.creatorNetwork__wrap .creator .nftDescription .blueLink:hover {
+  background: white;
+  color: #141416;
+  transition: 1s;
+}
+.creatorNetwork__wrap .creator .nftDescription a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #23262F;
+  border: 2px solid #E6E8EC;
+  border-radius: 90px;
+  display: block;
+  padding: 16px 0px;
+}
+.creatorNetwork__wrap .creator .nftDescription a:hover {
+  background: #3772FF;
+  transition: 1s;
+  color: #FCFCFD;
+}
+.creatorNetwork__wrap .creator .nftDescription .arrowToggles {
+  display: flex;
+  margin-top: 55px;
+  gap: 15px;
+}
+.creatorNetwork__wrap .creator .nftDescription .arrowToggles img {
+  cursor: pointer;
+  padding: 13px 11px;
+}
+.creatorNetwork__wrap .creator .nftDescription .arrowToggles img:hover {
+  border: 1px solid #E6E8EC;
+  border-radius: 100%;
+}
+.creatorNetwork__wrap .nftCards {
+  margin-top: 125px;
+  display: flex;
+  gap: 32px;
+}
+.creatorNetwork__wrap .nftCards .mainCard .content {
+  max-width: 448px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.creatorNetwork__wrap .nftCards .mainCard .content .name {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.creatorNetwork__wrap .nftCards .mainCard .content .name .text {
+  display: flex;
+  flex-direction: column;
+}
+.creatorNetwork__wrap .nftCards .mainCard .content .name .text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #23262F;
+}
+.creatorNetwork__wrap .nftCards .mainCard .content .name .text span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #353945;
+}
+.creatorNetwork__wrap .nftCards .mainCard .content .price {
+  margin-top: 4px;
+}
+.creatorNetwork__wrap .nftCards .mainCard .content .price__top {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777E91;
+}
+.creatorNetwork__wrap .nftCards .mainCard .content .price__bottom {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #45B36B;
+  border: 2px solid #45B36B;
+  border-radius: 4px;
+  padding: 6px;
+}
+.creatorNetwork__wrap .nftCards .miniCards__card {
+  max-width: 351px;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.creatorNetwork__wrap .nftCards .miniCards__card__content .headText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262F;
+  padding-top: 21px;
+  padding-bottom: 10px;
+}
+.creatorNetwork__wrap .nftCards .miniCards__card__content .price {
+  display: flex;
+  margin-bottom: 20px;
+}
+.creatorNetwork__wrap .nftCards .miniCards__card__content .price img {
+  margin-right: 11px;
+}
+.creatorNetwork__wrap .nftCards .miniCards__card__content .price p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #45B36B;
+  border: 2px solid #45B36B;
+  border-radius: 4px;
+  padding: 6px;
+  margin-right: 11px;
+}
+.creatorNetwork__wrap .nftCards .miniCards__card__content .price span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777E91;
+}
+.creatorNetwork__wrap .nftCards .miniCards__card__content a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262F;
+  padding: 8px 12px;
+  border: 2px solid #E6E8EC;
+  border-radius: 90px;
+}
+.creatorNetwork__wrap .nftCards .miniCards__card__content a:hover {
+  transition: 1s;
+  background: #3772FF;
+  color: white;
+}
+.creatorNetwork__wrap .nftCards .miniCards .card--3 {
+  margin-bottom: 0;
+}
+.creatorNetwork__wrap .nftCards .miniCards .card--3 .headText {
+  padding-top: 8px;
+}
+.creatorNetwork__wrap .nftCards .people {
+  border-left: 1px solid #E6E8EC;
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7%;
+}
+.creatorNetwork__wrap .nftCards .people p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777E91;
+}
+.creatorNetwork__wrap .nftCards .people .item {
+  margin-top: 20px;
+  border-bottom: 1px solid #E6E8EC;
+  padding-bottom: 24px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  max-width: 224px;
+}
+.creatorNetwork__wrap .nftCards .people .item__text .namePerson {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #23262F;
+  margin-bottom: 5px;
+}
+.creatorNetwork__wrap .nftCards .people .item__text .priceWork {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #353945;
+}
+.creatorNetwork__wrap .nftCards .people .item__text .priceWork span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777E91;
+}
+.creatorNetwork__wrap .nftCards .people .item--4 {
+  border: none;
+}
+.creatorNetwork__wrap .nftCards .people a {
+  padding: 12px 14px;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262F;
+  border: 2px solid #E6E8EC;
+  border-radius: 90px;
+  max-width: 130px;
+}
+.creatorNetwork__wrap .nftCards .people a:hover {
+  transition: 1s;
+  background: #3772FF;
+  color: white;
+}/*# sourceMappingURL=creatorNetwork.css.map */

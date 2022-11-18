@@ -1,0 +1,751 @@
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* h6,
+* p {
+  padding: 0;
+  margin: 0;
+}
+* a {
+  text-decoration: none;
+}
+* button {
+  cursor: pointer;
+}
+
+.productCard {
+  padding-top: 29px;
+}
+.productCard__wrap {
+  display: grid;
+  grid-template-columns: 59% 33%;
+  gap: 110px;
+}
+.productCard__wrap__productImage {
+  cursor: pointer;
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+}
+.productCard__wrap__productImage .miniCards {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.productCard__wrap__productImage .miniCards__card {
+  background: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 175px;
+}
+.productCard__wrap__productImage .miniCards__card img {
+  margin-top: 32px;
+}
+.productCard__wrap__productImage .productMain {
+  padding: 56px 88px 0px 88px;
+  position: relative;
+  max-width: 700px;
+  background: #F8F8F8;
+  display: flex;
+}
+.productCard__wrap__productImage .productMain .sale40 {
+  background: #F93C00;
+  border-radius: 10px;
+  width: 56px;
+  min-height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.productCard__wrap__productImage .productMain .heart {
+  position: absolute;
+  right: 2%;
+  top: 3%;
+}
+.productCard__wrap__productImage .productMain .buttons__leftbtn {
+  padding: 32px 20px 32px 15px;
+  background: rgba(227, 227, 227, 0.8);
+  border-radius: 15px 0px 0px 15px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  cursor: pointer;
+  border: none;
+}
+.productCard__wrap__productImage .productMain .buttons__rightbtn {
+  padding: 32px 15px 32px 20px;
+  background: rgba(227, 227, 227, 0.8);
+  border-radius: 15px 0px 0px 15px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  cursor: pointer;
+  border: none;
+}
+.productCard__wrap__productImage .productMain .toggles {
+  position: absolute;
+  bottom: 2%;
+  left: 3%;
+}
+.productCard__wrap__productImage .productMain .toggles .toggle {
+  cursor: pointer;
+  width: 15px;
+  height: 6px;
+  background: #E3E3E3;
+  border-radius: 2px;
+  margin-right: 10px;
+  display: inline-block;
+  transition: 1s;
+}
+.productCard__wrap__productImage .productMain .toggles .toggle:hover {
+  background: black;
+  transition: 1s;
+}
+.productCard__wrap__productDescription {
+  max-width: 430px;
+  margin-top: 60px;
+}
+.productCard__wrap__productDescription .heading__item {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productCard__wrap__productDescription .heading__item h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.productCard__wrap__productDescription .heading__item span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.productCard__wrap__productDescription .heading__item .green {
+  color: #0CA41B;
+}
+.productCard__wrap__productDescription .heading__item .price__redPrice {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 140%;
+  color: #F93C00;
+  margin-right: 13px;
+}
+.productCard__wrap__productDescription .heading__item .price__lastPrice {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 140%;
+  color: #848484;
+  position: relative;
+}
+.productCard__wrap__productDescription .heading__item .price__lastPrice::after {
+  content: "";
+  border: 1px solid #F93C00;
+  position: absolute;
+  width: 85px;
+  background: #F93C00;
+  left: 0;
+  top: 50%;
+}
+.productCard__wrap__productDescription .heading__item .raiting .raitingNumber {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 140%;
+  color: #848484;
+  margin-left: 7px;
+}
+.productCard__wrap__productDescription .heading::after {
+  content: "";
+  border-bottom: 1px solid #F0F0F0;
+  width: 430px;
+  padding-bottom: 28px;
+  display: block;
+}
+.productCard__wrap__productDescription .characteristics {
+  margin-top: 25px;
+}
+.productCard__wrap__productDescription .characteristics .item--details {
+  position: absolute;
+  z-index: 15;
+}
+.productCard__wrap__productDescription .characteristics__item {
+  display: flex;
+  justify-content: space-between;
+}
+.productCard__wrap__productDescription .characteristics__item span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.productCard__wrap__productDescription .characteristics__item .blue {
+  color: #00cccc;
+}
+.productCard__wrap__productDescription .characteristics__item details {
+  cursor: pointer;
+  margin-top: 25px;
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.07);
+}
+.productCard__wrap__productDescription .characteristics__item details summary {
+  list-style-type: none;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2C2C2C;
+  margin: 15px 20px;
+}
+.productCard__wrap__productDescription .characteristics__item details summary img {
+  margin-left: 255px;
+}
+.productCard__wrap__productDescription .characteristics__item details .size {
+  cursor: pointer;
+  padding: 11px 19px 9px 19px;
+}
+.productCard__wrap__productDescription .characteristics__item details .size span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.productCard__wrap__productDescription .characteristics__item details .size .gray {
+  color: #CFCFCF;
+}
+.productCard__wrap__productDescription .characteristics__item details .size .Border::after {
+  content: "";
+  height: 8px;
+  width: 1px;
+  background: #CFCFCF;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 1px;
+}
+.productCard__wrap__productDescription .characteristics__item details .size .border::after {
+  content: "";
+  height: 8px;
+  width: 1px;
+  background: #2C2C2C;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 1px;
+}
+.productCard__wrap__productDescription .characteristics__item details .size__availability a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #2C2C2C;
+}
+.productCard__wrap__productDescription .characteristics__item details .size--availability {
+  display: flex;
+  justify-content: space-between;
+}
+.productCard__wrap__productDescription .characteristics__item details .size:hover {
+  background: #F0F0F0;
+  transition: 1s;
+}
+.productCard__wrap__productDescription .characteristics__item details[open] {
+  padding-bottom: 24px;
+}
+.productCard__wrap__productDescription .characteristics__item details[open] summary img {
+  transform: rotate(180deg);
+}
+@-webkit-keyframes spoiler {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes spoiler {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.productCard__wrap__productDescription .characteristics__item details[open]::after {
+  content: "";
+  border-bottom: 1px solid #F0F0F0;
+  position: absolute;
+  display: block;
+  top: 20%;
+  height: 1px;
+  width: 100%;
+}
+.productCard__wrap__productDescription .characteristics .item--sizes {
+  display: flex;
+  gap: 20px;
+  background: #EEF7F8;
+  border-radius: 15px;
+  padding: 9px 64px;
+  margin-top: 100px;
+}
+.productCard__wrap__productDescription .characteristics .item--sizes span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.productCard__wrap__productDescription .characteristics .item--buttons {
+  margin-top: 15px;
+  gap: 11px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 35px;
+}
+.productCard__wrap__productDescription .characteristics .item--buttons button {
+  padding: 15px 37px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+  border-radius: 15px;
+  border: none;
+}
+.productCard__wrap__productDescription .characteristics .item--buttons .sale {
+  background: #FF9900;
+  border-radius: 15px;
+  padding: 8px 17px;
+  display: flex;
+  align-items: center;
+}
+.productCard__wrap__productDescription .characteristics .item--buttons .sale span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  max-width: 67px;
+  color: #FFFFFF;
+  display: inline-block;
+}
+.productCard__wrap__productDescription .characteristics .item--buttons .sale a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #FF9900;
+  background: #FFFFFF;
+  border-radius: 15px;
+  padding: 7px 11px;
+  margin-left: 8px;
+  position: relative;
+}
+.productCard__wrap__productDescription .characteristics .item--buttons .sale a:hover {
+  transition: 1s;
+  background: #FF9900;
+  color: white;
+}
+.productCard__wrap__productDescription .characteristics .item--buttons .sale a::after {
+  content: "";
+  background: url(../img/palms.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  top: -40%;
+  right: -50%;
+  display: block;
+}
+.productCard__wrap__productDescription .characteristics .item--buttons .sale a::before {
+  content: "";
+  background: url(../img/palms2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  top: -45%;
+  right: 40%;
+  display: block;
+}
+.productCard__wrap__productDescription .characteristics .item--about {
+  margin-top: 25px;
+  display: block;
+}
+.productCard__wrap__productDescription .characteristics .item--about h4 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+  margin-bottom: 30px;
+}
+.productCard__wrap__productDescription .characteristics .item--about .about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.productCard__wrap__productDescription .characteristics .item--about .about__item {
+  margin-bottom: 25px;
+}
+.productCard__wrap__productDescription .characteristics .item--about .about__item p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  color: #848484;
+  margin-bottom: 12px;
+}
+.productCard__wrap__productDescription .characteristics .item--about .about__item span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #2C2C2C;
+}
+.productCard__wrap__productDescription .characteristics .item--about a {
+  margin-top: 25px;
+  color: #00cccc;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+}
+
+.productCard::before {
+  content: "";
+  border-top: 1px solid #F0F0F0;
+  height: 1px;
+  width: 100%;
+  display: block;
+}
+
+.Benefits {
+  padding-top: 80px;
+}
+.Benefits__wrap details {
+  max-width: 810px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.Benefits__wrap details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.Benefits__wrap details summary img {
+  padding: 15px 12px 15px 12px;
+}
+.Benefits__wrap details .content {
+  display: flex;
+  gap: 70px;
+  margin-top: 10px;
+}
+.Benefits__wrap details .content .left {
+  display: flex;
+  flex-direction: column;
+}
+.Benefits__wrap details .content .left span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 140%;
+  color: #2C2C2C;
+  margin-bottom: 10px;
+  display: block;
+}
+.Benefits__wrap details .content .right .item {
+  display: flex;
+}
+.Benefits__wrap details .content .right .item img {
+  margin-right: 15px;
+}
+.Benefits__wrap details .content .right .item span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 140%;
+  color: #2C2C2C;
+  margin-bottom: 10px;
+  display: block;
+}
+.Benefits__wrap details[open] {
+  border-bottom: 1px solid #F0F0F0;
+  padding-bottom: 15px;
+  -webkit-animation: spoiler 1s;
+          animation: spoiler 1s;
+}
+.Benefits__wrap details[open] summary img {
+  transform: rotate(180deg);
+  background: #F8F8F8;
+  border-radius: 100%;
+  padding: 15px 12px 15px 12px;
+}
+
+.reviews {
+  margin-top: 100px;
+}
+.reviews__wrap .heading {
+  margin-bottom: 20px;
+}
+.reviews__wrap .heading h5 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.reviews__wrap .heading .shareReview {
+  background: #F8F8F8;
+  padding: 15px 30px;
+  margin-top: 35px;
+  max-width: 810px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.reviews__wrap .heading .shareReview p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.reviews__wrap .heading .shareReview a {
+  padding: 15px 56px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+  border-radius: 15px;
+}
+.reviews__wrap .review {
+  max-width: 810px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  box-sizing: border-box;
+  padding: 25px 30px 30px 30px;
+}
+.reviews__wrap .review__raiting {
+  display: flex;
+  justify-content: space-between;
+}
+.reviews__wrap .review__raiting .name {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 25px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.reviews__wrap .review .inst {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  color: #00cccc;
+  margin-top: 7px;
+  margin-bottom: 18px;
+}
+.reviews__wrap .review p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  color: #2C2C2C;
+  max-width: 800px;
+}
+.reviews__wrap .review .images {
+  display: flex;
+  gap: 12px;
+  margin-top: 30px;
+}
+.reviews__wrap .review--first {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.interestingProducts {
+  padding-top: 100px;
+}
+.interestingProducts__wrap h6 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.interestingProducts__wrap__cards {
+  margin-top: 35px;
+  display: flex;
+  gap: 31px;
+}
+.interestingProducts__wrap__cards article {
+  transition: 1s;
+  position: relative;
+  max-width: 327px;
+  cursor: pointer;
+}
+.interestingProducts__wrap__cards article .girl1 {
+  padding-top: 30px;
+  padding-left: 28px;
+  padding-right: 44px;
+}
+.interestingProducts__wrap__cards article .girl2 {
+  padding: 31px 6px 0px 9px;
+}
+.interestingProducts__wrap__cards article .girl3 {
+  padding-top: 33px;
+}
+.interestingProducts__wrap__cards article .girl4 {
+  padding: 33px 23px 0px 22px;
+}
+.interestingProducts__wrap__cards article .orangePrice {
+  color: #F93C00;
+}
+.interestingProducts__wrap__cards article img {
+  background: #F8F8F8;
+}
+.interestingProducts__wrap__cards article .heart {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+.interestingProducts__wrap__cards article p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+  margin-top: 20px;
+}
+.interestingProducts__wrap__cards article span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.interestingProducts__wrap__cards article .cardSizes .size {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2C2C2C;
+  border-right: 1px solid #E3E3E3;
+  padding-right: 7px;
+  margin-left: 7px;
+}
+.interestingProducts__wrap__cards article .cardSizes .size:first-child {
+  margin: 0;
+}
+.interestingProducts__wrap__cards article .cardSizes .size:last-child {
+  border: none;
+}
+.interestingProducts__wrap__cards article a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+  border-radius: 15px;
+  box-sizing: border-box;
+  opacity: 0;
+}
+.interestingProducts__wrap__cards article:hover {
+  transition: 1s;
+}
+.interestingProducts__wrap__cards article:hover .girl3 {
+  opacity: 0.3;
+}
+.interestingProducts__wrap__cards article:hover .girl1 {
+  opacity: 0.3;
+}
+.interestingProducts__wrap__cards article:hover .girl2 {
+  opacity: 0.3;
+}
+.interestingProducts__wrap__cards article:hover .girl4 {
+  opacity: 0.3;
+}
+.interestingProducts__wrap__cards article:hover .cardBottom {
+  margin-top: -30%;
+}
+.interestingProducts__wrap__cards article:hover a {
+  max-width: 116px;
+  padding: 16px 30px;
+  margin-top: 20px;
+  display: block;
+  opacity: 1;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+  border-radius: 15px;
+  box-sizing: border-box;
+}

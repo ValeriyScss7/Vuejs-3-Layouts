@@ -1,0 +1,190 @@
+.blogs {
+  background: #161D27;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.blogs .RecentBlogs h6 {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  padding-top: 139px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blogs .RecentBlogs h6::after {
+  content: "";
+  background: url(../img/iconCross.svg);
+  width: 95px;
+  height: 44px;
+  display: block;
+  margin-top: 11px;
+}
+.blogs .RecentBlogs .recent {
+  margin-top: 70px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  border-bottom: 1px solid #4E555F;
+  padding-bottom: 100px;
+}
+.blogs .RecentBlogs .recent__content .date {
+  border-bottom: 1px solid #4E555F;
+  padding-bottom: 25px;
+}
+.blogs .RecentBlogs .recent__content .date span {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 34px;
+  letter-spacing: 0.4px;
+  color: #D1B06B;
+}
+.blogs .RecentBlogs .recent__content .date span:first-child {
+  border-right: 1px solid #D1B06B;
+  padding-right: 20px;
+}
+.blogs .RecentBlogs .recent__content .date span:last-child {
+  margin-left: 21px;
+}
+.blogs .RecentBlogs .recent__content .head {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  margin-top: 25px;
+  max-width: 513px;
+  padding: 0;
+  text-align: start;
+}
+.blogs .RecentBlogs .recent__content .head::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+}
+.blogs .RecentBlogs .recent__content p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 646px;
+  letter-spacing: 0.4px;
+  color: #D7D7D7;
+  margin-top: 21px;
+}
+.blogs .RecentBlogs .recent__content a {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  color: #D1B06B;
+  border-bottom: 1px solid #D1B06B;
+  margin-top: 17px;
+  display: block;
+  max-width: 109px;
+}
+.blogs .RecentBlogs .recent__content a:hover {
+  filter: brightness(130%);
+  transition: 1s;
+}
+.blogs .blogCards {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 140px;
+}
+.blogs .blogCards__card {
+  max-width: 440px;
+}
+.blogs .blogCards__card .top .date {
+  border-bottom: 1px solid #4E555F;
+  padding-bottom: 25px;
+  margin-top: 24px;
+}
+.blogs .blogCards__card .top .date span {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 34px;
+  letter-spacing: 0.4px;
+  color: #D1B06B;
+}
+.blogs .blogCards__card .top .date span:first-child {
+  border-right: 1px solid #D1B06B;
+  padding-right: 20px;
+}
+.blogs .blogCards__card .top .date span:last-child {
+  margin-left: 20px;
+}
+.blogs .blogCards__card .bottom p {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  max-width: 397px;
+  margin-bottom: 22px;
+  margin-top: 25px;
+}
+.blogs .blogCards__card .bottom .miniText {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  color: #D7D7D7;
+  max-width: 420px;
+  margin-top: 0;
+}
+.blogs .blogCards__card .bottom a {
+  margin-top: 17px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  color: #D1B06B;
+  border-bottom: 1px solid #D1B06B;
+}
+.blogs .blogCards__card .bottom a:hover {
+  transition: 1s;
+  filter: brightness(140%);
+}
+.blogs .blogCards__card:first-child {
+  margin-bottom: 99px;
+}
+.blogs .blogCards__card:nth-child(2) {
+  margin-bottom: 99px;
+}
+.blogs .blogCards__card:nth-child(3) {
+  margin-bottom: 99px;
+}
+
+.blogs::after {
+  content: "";
+  background: url(../img/BeforeFooter.png);
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 248px;
+  display: block;
+}/*# sourceMappingURL=style1200.css.map */

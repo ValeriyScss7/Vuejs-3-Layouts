@@ -1,0 +1,76 @@
+.Crypter__wrap {
+  margin-top: 80px;
+  background: url(../img/Crypter.png);
+  background-repeat: no-repeat;
+  min-height: 640px;
+  background-position: right -69px top 80px;
+  padding-bottom: 170px;
+}
+.Crypter__wrap__content {
+  padding-top: 231px;
+}
+.Crypter__wrap__content p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #777E91;
+  margin-bottom: 12px;
+}
+.Crypter__wrap__content h6 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  color: #23262F;
+  max-width: 545px;
+  margin-bottom: 20px;
+}
+.Crypter__wrap__content span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777E91;
+  display: block;
+  margin-bottom: 40px;
+}
+.Crypter__wrap__content .btn a:first-child {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  background: #3772FF;
+  border-radius: 90px;
+  padding: 16px 24px;
+  color: #FCFCFD;
+}
+.Crypter__wrap__content .btn a:first-child:hover {
+  color: #23262F;
+  background: white;
+  transition: 1s;
+  border: 2px solid #E6E8EC;
+}
+.Crypter__wrap__content .btn a:last-child {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  border: 2px solid #E6E8EC;
+  border-radius: 90px;
+  padding: 16px 24px;
+  color: #23262F;
+  margin-left: 16px;
+}
+.Crypter__wrap__content .btn a:last-child:hover {
+  background: #3772FF;
+  color: white;
+  transition: 1s;
+}/*# sourceMappingURL=SectionCrypter.css.map */

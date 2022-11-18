@@ -1,0 +1,111 @@
+.hotBid__heading {
+  padding-top: 136px;
+  display: flex;
+  justify-content: space-between;
+}
+.hotBid__heading h4 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #23262F;
+}
+.hotBid__heading .arrows {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.hotBid__heading .arrows img {
+  padding: 14px 12px;
+  cursor: pointer;
+}
+.hotBid__heading .arrows img:hover {
+  border: 1px solid #E6E8EC;
+  border-radius: 100%;
+}
+.hotBid__cardbox {
+  display: flex;
+  gap: 32px;
+  margin-top: 64px;
+  padding-bottom: 148px;
+}
+.hotBid__cardbox__card {
+  max-width: 256px;
+}
+.hotBid__cardbox__card .crypt {
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+.hotBid__cardbox__card .crypt p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262F;
+}
+.hotBid__cardbox__card .crypt .greenText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #45B36B;
+  border: 2px solid #45B36B;
+  border-radius: 4px;
+  padding: 6px;
+}
+.hotBid__cardbox__card .avatars {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E6E8EC;
+  padding-bottom: 12px;
+}
+.hotBid__cardbox__card .avatars .stock {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #353945;
+}
+.hotBid__cardbox__card .bid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.hotBid__cardbox__card .bid__left {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.hotBid__cardbox__card .bid span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777E91;
+  display: flex;
+}
+.hotBid__cardbox__card .bid .slide::before {
+  content: "";
+  background: url(../img/miniSliders.svg);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 20px;
+  display: block;
+}
+.hotBid__cardbox__card .bid .bidValue {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #353945;
+}/*# sourceMappingURL=sectionhotbid.css.map */

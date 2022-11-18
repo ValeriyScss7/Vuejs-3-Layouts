@@ -1,0 +1,152 @@
+.footer__wrap {
+  padding-top: 120px;
+}
+.footer__wrap__top {
+  background: #F8F8F8;
+  padding: 30px 0px;
+  display: grid;
+  grid-template-columns: 71% 24% 5%;
+}
+.footer__wrap__top p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+  display: flex;
+  align-items: center;
+}
+.footer__wrap__top p::before {
+  content: "";
+  background-image: url(../img/letterlove.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 3%;
+}
+.footer__wrap__top .mailField {
+  padding: 16px;
+  background: #FFFFFF;
+  border: 1px solid #E3E3E3;
+  border-radius: 15px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+.footer__wrap__top button {
+  padding: 20px;
+  background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+  border-radius: 15px;
+  color: #FFFFFF;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.footer__wrap__bottom {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 80px;
+}
+.footer__wrap__bottom__category {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.footer__wrap__bottom__category h5 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #2C2C2C;
+  margin-bottom: 25px;
+}
+.footer__wrap__bottom__category a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #444444;
+  margin-bottom: 10px;
+}
+.footer__wrap__bottom__category a:hover {
+  transition: 1s;
+  color: #F93C00;
+}
+.footer__wrap__bottom__category span {
+  cursor: pointer;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #444444;
+  margin-bottom: 10px;
+}
+.footer__wrap__bottom__category .delivery {
+  display: flex;
+  align-items: center;
+}
+.footer__wrap__bottom__category .delivery::after {
+  content: "";
+  background-image: url(../img/delivery_icon.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.footer__wrap__bottom__category .gift {
+  display: flex;
+  align-items: center;
+}
+.footer__wrap__bottom__category .gift::after {
+  content: "";
+  background-image: url(../img/gift_icon.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.footer__wrap__bottom__category .saleOrange {
+  color: #F93C00;
+}
+.footer__wrap__bottom__category p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #444444;
+}
+.footer__wrap__bottom__category .phoneNumber {
+  color: #00cccc;
+  margin-top: 10px;
+}
+.footer__wrap__bottom__category .socialMedia {
+  margin-top: 29px;
+  margin-bottom: 29px;
+  display: flex;
+  gap: 15px;
+}
+.footer__wrap__bottom__category .contactsText {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #848484;
+  max-width: 235px;
+}
+.footer__wrap__bottom .category--contacts {
+  justify-self: end;
+}
+.footer__wrap__bottom .category--oftenFind {
+  justify-self: center;
+}

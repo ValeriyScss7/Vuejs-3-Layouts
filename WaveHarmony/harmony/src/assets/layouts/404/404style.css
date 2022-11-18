@@ -1,0 +1,81 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* h6,
+* p {
+  padding: 0;
+  margin: 0;
+}
+* a {
+  text-decoration: none;
+}
+
+.error__404BreadCrumbs {
+  padding-top: 64px;
+}
+.error__404BreadCrumbs span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #2C2C2C;
+  cursor: pointer;
+}
+.error__404BreadCrumbs .grey {
+  margin-left: 5px;
+  color: #2C2C2C;
+  opacity: 0.5;
+  font-weight: 400;
+}
+.error__content {
+  display: flex;
+  gap: 160px;
+  margin-top: 80px;
+}
+.error__content__text {
+  padding-top: 8.5%;
+  display: flex;
+  flex-direction: column;
+}
+.error__content__text h1 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 140%;
+  text-align: center;
+}
+.error__content__text p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 140%;
+  text-align: center;
+  color: #2C2C2C;
+  margin-top: 10px;
+  max-width: 420px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.error__content__text a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 100%;
+  color: #FFFFFF;
+  padding: 16px 50px;
+  background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+  border-radius: 15px;
+  display: block;
+  align-self: center;
+}

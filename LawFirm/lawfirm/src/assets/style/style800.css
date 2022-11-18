@@ -1,0 +1,189 @@
+.reviews {
+  background: #161D27;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.reviews__wrap {
+  padding-bottom: 180px;
+}
+.reviews__wrap h6 {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  padding-top: 124px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.reviews__wrap h6:after {
+  content: "";
+  background: url(../img//iconCross.svg);
+  background-repeat: no-repeat;
+  display: block;
+  width: 95px;
+  height: 44px;
+  margin-top: 11px;
+}
+.reviews__wrap .Reviews {
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+}
+.reviews__wrap .Reviews__item__text {
+  background: #2E3947;
+  border-radius: 1px 1px 1px 40px;
+  padding: 51px 51px 57px 45px;
+  box-sizing: border-box;
+  max-width: 313px;
+}
+.reviews__wrap .Reviews__item__text p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  color: #D7D7D7;
+  max-width: 217px;
+}
+.reviews__wrap .Reviews__item__text p::before {
+  content: "";
+  background: url(../img/quotes.svg);
+  display: block;
+  width: 33px;
+  height: 26px;
+  margin-bottom: 33px;
+}
+.reviews__wrap .Reviews__item__person {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.reviews__wrap .Reviews__item__person .description {
+  display: flex;
+  flex-direction: column;
+}
+.reviews__wrap .Reviews__item__person .description .name {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+.reviews__wrap .Reviews__item__person .description span {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  color: #D7D7D7;
+}
+.reviews__wrap .Reviews .item--reverse .Reviews__item__person {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.reviews__wrap .Reviews .item--reverse .Reviews__item__text {
+  border-radius: 40px 1px 1px 1px;
+}
+
+.attourneys__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.attourneys__wrap h6 {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  color: #161D27;
+  max-width: 692px;
+  padding-top: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.attourneys__wrap h6::after {
+  content: "";
+  background: url(../img/iconCross.svg);
+  background-repeat: no-repeat;
+  width: 95px;
+  height: 44px;
+  margin-top: 11px;
+}
+.attourneys__wrap__cards {
+  margin-top: 70px;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 125px;
+}
+.attourneys__wrap__cards .card {
+  position: relative;
+  transition: 1s;
+  cursor: pointer;
+}
+.attourneys__wrap__cards .card .socialIcons {
+  background: #FFFFFF;
+  max-width: 217px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 25px 36px 21px 36px;
+  position: absolute;
+  bottom: 13%;
+  left: 25%;
+  opacity: 0;
+}
+.attourneys__wrap__cards .card .socialIcons::after {
+  content: "";
+  height: 1px;
+  width: 108px;
+  background: #D1B06B;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+.attourneys__wrap__cards .card p {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #161D27;
+  margin-top: 15px;
+}
+.attourneys__wrap__cards .card span {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #D1B06B;
+  display: block;
+}
+.attourneys__wrap__cards .card:hover {
+  transition: 1s;
+}
+.attourneys__wrap__cards .card:hover .socialIcons {
+  opacity: 1;
+}/*# sourceMappingURL=style800.css.map */

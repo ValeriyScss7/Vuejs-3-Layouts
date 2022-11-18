@@ -1,0 +1,495 @@
+.creatorNetwork {
+    &__wrap {
+        & .heading {
+            padding-top: 128px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            & p {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 12px;
+                text-transform: uppercase;
+                color: #777E91;
+                margin-bottom: 8px;
+            }
+
+            & h1 {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                text-align: center;
+                letter-spacing: -0.01em;
+                color: #23262F;
+                margin-bottom: 24px;
+            }
+
+            & a {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 16px;
+                text-align: center;
+                color: #23262F;
+                padding: 16px 24px;
+                border: 2px solid #E6E8EC;
+                border-radius: 90px;
+                margin-bottom: 100px;
+            }
+
+            & a:hover {
+                transition: 1s;
+                background: #E6E8EC;
+            }
+        }
+
+        & .creator {
+            display: flex;
+            gap: 128px;
+
+            & .nftImage {
+                position: relative;
+
+                & audio {
+                    width: 624px;
+                    height: 40px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    bottom: 13px;
+                    left: 11px;
+                    cursor: pointer;
+                }
+            }
+
+            & .nftDescription {
+                max-width: 352px;
+
+                & h2 {
+                    font-family: 'DM Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 64px;
+                    letter-spacing: -0.02em;
+                    color: #23262F;
+                    margin-bottom: 20px;
+                    max-width: 352px;
+                }
+
+                &__items {
+                    display: flex;
+                    gap: 65px;
+
+                    & .item {
+                        display: flex;
+                        gap: 8px;
+                        align-items: center;
+
+                        &__text {
+                            display: flex;
+                            flex-direction: column;
+
+                            & p {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 20px;
+                                color: #777E91;
+                            }
+
+                            & span {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 24px;
+                                color: #23262F;
+                            }
+                        }
+
+                    }
+                }
+
+                & .time {
+                    margin-top: 40px;
+                    background: #FCFCFD;
+                    border: 2px solid #E6E8EC;
+                    box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+                    border-radius: 24px;
+                    padding: 32px 60px;
+                    box-sizing: border-box;
+
+                    & .head {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #23262F;
+                    }
+
+                    & .eth {
+                        font-family: 'DM Sans';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 56px;
+                        text-align: center;
+                        letter-spacing: -0.02em;
+                        color: #141416;
+                    }
+
+                    & .price {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: #777E91;
+                        margin-bottom: 24px;
+                    }
+
+                    & .timeRemaining {
+                        margin-top: 10px;
+                        display: flex;
+                        gap: 20px;
+                        justify-content: center;
+
+                        &__item {
+                            & .times {
+                                font-family: 'DM Sans';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 32px;
+                                line-height: 40px;
+                                letter-spacing: -0.01em;
+                                color: #141416;
+                            }
+
+                            & span {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 24px;
+                                text-align: center;
+                                color: #777E91;
+                            }
+                        }
+                    }
+
+                }
+
+                & .blueLink {
+                    margin-top: 40px;
+                    display: block;
+                    font-family: 'DM Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #FCFCFD;
+                    background: #3772FF;
+                    border-radius: 90px;
+                    margin-bottom: 8px;
+                    padding: 16px 0px;
+                }
+
+                & .blueLink:hover {
+                    background: white;
+                    color: #141416;
+                    transition: 1s;
+                }
+
+                & a {
+                    font-family: 'DM Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #23262F;
+                    border: 2px solid #E6E8EC;
+                    border-radius: 90px;
+                    display: block;
+                    padding: 16px 0px;
+                }
+
+                & a:hover {
+                    background: #3772FF;
+                    transition: 1s;
+                    color: #FCFCFD;
+                }
+
+                & .arrowToggles {
+                    display: flex;
+                    margin-top: 55px;
+                    gap: 15px;
+
+                    & img {
+                        cursor: pointer;
+                        padding: 13px 11px;
+                    }
+
+                    & img:hover {
+                        border: 1px solid #E6E8EC;
+                        border-radius: 100%;
+
+                    }
+                }
+            }
+        }
+
+        & .nftCards {
+            margin-top: 125px;
+            display: flex;
+            gap: 32px;
+
+            & .mainCard {
+                & .content {
+                    max-width: 448px;
+                    margin-top: 24px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    & .name {
+                        display: flex;
+                        gap: 16px;
+                        align-items: center;
+
+                        & .text {
+                            display: flex;
+                            flex-direction: column;
+
+                            & p {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 24px;
+                                line-height: 32px;
+                                color: #23262F;
+                            }
+
+                            & span {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 24px;
+                                color: #353945;
+                            }
+                        }
+                    }
+
+                    & .price {
+                        margin-top: 4px;
+
+                        &__top {
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 20px;
+                            color: #777E91;
+                        }
+
+                        &__bottom {
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 12px;
+                            text-transform: uppercase;
+                            color: #45B36B;
+                            border: 2px solid #45B36B;
+                            border-radius: 4px;
+                            padding: 6px;
+                        }
+                    }
+                }
+            }
+
+            & .miniCards {
+                &__card {
+                    max-width: 351px;
+                    display: flex;
+                    gap: 24px;
+                    margin-bottom: 32px;
+
+
+                    &__content {
+                        & .headText {
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #23262F;
+                            padding-top: 21px;
+                            padding-bottom: 10px;
+                        }
+
+                        & .price {
+
+                            display: flex;
+                            margin-bottom: 20px;
+
+                            & img {
+                                margin-right: 11px;
+                            }
+
+                            & p {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 12px;
+                                line-height: 12px;
+                                text-transform: uppercase;
+                                color: #45B36B;
+                                border: 2px solid #45B36B;
+                                border-radius: 4px;
+                                padding: 6px;
+                                margin-right: 11px;
+                            }
+
+                            & span {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 24px;
+                                color: #777E91;
+
+                            }
+
+
+
+                        }
+
+                        & a {
+                            font-family: 'DM Sans';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 16px;
+                            color: #23262F;
+                            padding: 8px 12px;
+                            border: 2px solid #E6E8EC;
+                            border-radius: 90px;
+                        }
+
+                        & a:hover {
+                            transition: 1s;
+                            background: #3772FF;
+                            color: white;
+                        }
+                    }
+                }
+
+                & .card--3 {
+                    margin-bottom: 0;
+                    & .headText {
+                        padding-top: 8px;
+                    }
+                }
+            }
+
+            & .people {
+                border-left: 1px solid #E6E8EC;
+                padding-left: 32px;
+                display: flex;
+                flex-direction: column;
+                gap: 0.7%;
+
+                & p {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: #777E91;
+                }
+
+                & .item {
+                    margin-top: 20px;
+                    border-bottom: 1px solid #E6E8EC;
+                    padding-bottom: 24px;
+                    display: flex;
+                    gap: 16px;
+                    align-items: center;
+                    max-width: 224px;
+
+                    &__text {
+                        & .namePerson {
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: #23262F;
+                            margin-bottom: 5px;
+                        }
+
+                        & .priceWork {
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 20px;
+                            color: #353945;
+
+                            & span {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 20px;
+                                color: #777E91;
+                            }
+                        }
+                    }
+                }
+
+                & .item--4 {
+                    border: none;
+                }
+
+                & a {
+                    padding: 12px 14px;
+                    display: flex;
+                    gap: 13px;
+                    align-items: center;
+                    font-family: 'DM Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #23262F;
+                    border: 2px solid #E6E8EC;
+                    border-radius: 90px;
+                    max-width: 130px;
+                }
+
+                & a:hover {
+                    transition: 1s;
+                    background: #3772FF;
+                    color: white;
+                }
+            }
+
+
+        }
+    }
+}

@@ -1,0 +1,231 @@
+.header__wrap {
+    &__top {
+        position: relative;
+        display: flex;
+        padding-top: 20px;
+
+        &__numberText {
+            display: flex;
+            align-items: center;
+
+            & p {
+                margin-right: 5px;
+                color: #2B2A28;
+                font-family: 'Futura PT';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 140%;
+            }
+
+            & span {
+                font-family: 'Futura PT';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 140%;
+                opacity: 0.5;
+            }
+        }
+
+        &__logo {
+            margin: 0 auto;
+            align-self: center;
+            padding-right: 5%;
+        }
+
+        &__right {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+
+            & .burgerBasket {
+                cursor: pointer;
+                
+            }
+
+            & .burgerBasket:hover {
+                & .basket {
+                    opacity: 1;
+                    width: auto;
+                    height: auto;
+                    transition: 1s;
+                }
+            }
+
+            & .basket {
+                box-shadow: 0px 1px 5px rgba(28, 30, 45, 0.07), 0px 5px 20px rgba(28, 30, 45, 0.07);
+                border-radius: 0px 0px 15px 15px;
+                position: absolute;
+                right: 0;
+                opacity: 0;
+                width: 0;
+                height: 0;
+                top: 100%;
+                z-index: 16;
+                background: #FFFFFF;
+
+                &__cards {
+                    padding: 15px 30px 20px 30px;
+                    overflow: auto;
+                    max-height: 300px;
+
+                    & article {
+                        display: flex;
+                        margin-bottom: 20px;
+
+                        & .itemPics {
+                            margin-right: 20px;
+                        }
+
+                        & .itemText {
+                            & h6 {
+                                font-family: 'Futura PT';
+                                font-style: normal;
+                                font-weight: 450;
+                                font-size: 18px;
+                                line-height: 130%;
+                                color: #21A5B5;
+                            }
+
+                            & p {
+                                font-family: 'Futura PT';
+                                font-style: normal;
+                                font-weight: 450;
+                                font-size: 16px;
+                                line-height: 130%;
+                                color: #848484;
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                            }
+
+                            & span {
+                                font-family: 'Futura PT';
+                                font-style: normal;
+                                font-weight: 450;
+                                font-size: 16px;
+                                line-height: 130%;
+                                color: #2C2C2C;
+                            }
+
+                            &__bottom {
+                                margin-top: 41px;
+                                display: flex;
+                                align-items: center;
+
+                                & span {
+                                    margin-left: 5px;
+                                    margin-right: 5px;
+                                }
+
+                                & .delete {
+                                    margin-left: 80px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                & .basketBottom {
+                    padding: 20px 30px;
+
+                    & .finalPayment {
+                        display: flex;
+                        justify-content: space-between;
+
+                        & span {
+                            font-family: 'Futura PT';
+                            font-style: normal;
+                            font-weight: 450;
+                            font-size: 18px;
+                            line-height: 130%;
+                            color: #2C2C2C;
+                        }
+                    }
+
+                    & a {
+                        display: block;
+                        margin-top: 20px;
+                        padding: 12px 62.5px;
+                        font-family: 'Futura PT';
+                        font-style: normal;
+                        font-weight: 450;
+                        font-size: 16px;
+                        line-height: 130%;
+                        color: #FFFFFF;
+                        background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+                        border-radius: 15px;
+                    }
+                }
+
+
+            }
+
+
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        gap: 0.6%;
+        margin-top: 20px;
+
+        & a {
+            text-decoration: none;
+            cursor: pointer;
+            font-family: 'Futura PT';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            color: #2B2A28;
+            transition: 1s;
+            display: block;
+            position: relative;
+            z-index: 10;
+            padding: 10px 15px;
+        }
+
+        & a:first-child {
+            background: #FFECC8;
+            border-radius: 10px;
+        }
+
+        & a:last-child {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 0;
+            padding-right: 0;
+
+        }
+
+        & a:hover {
+            background: #FFECC8;
+            border-radius: 10px;
+        }
+
+        & .gift::after {
+            content: '';
+            background: url(../img/gift.png);
+            background-repeat: no-repeat;
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            margin-left: 5px;
+        }
+
+        & .sale {
+            color: #F93C00;
+            margin-left: 6%;
+        }
+
+
+
+    }
+
+    .visible {
+        width: auto;
+        height: auto;
+        opacity: 1;
+    }
+}

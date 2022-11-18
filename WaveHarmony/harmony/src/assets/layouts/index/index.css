@@ -1,0 +1,551 @@
+@import url(../header/header.scss);
+@import url(../footer/footer.scss);
+@import url(../catalog/catalog.scss);
+@import url(../itemCard/itemCard.scss);
+@import url(../404//404style.scss);
+@font-face {
+  font-family: "Futura PT";
+  src: url(../font/FuturaPT-Medium.ttf);
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* h6,
+* p {
+  padding: 0;
+  margin: 0;
+}
+* a {
+  text-decoration: none;
+}
+
+.main {
+  background: white;
+  padding-top: 46px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.main .intro {
+  position: relative;
+  min-height: 700px;
+  background: linear-gradient(158.72deg, #CFAFFF 0%, #A6C6D1 100%);
+}
+.main .intro__wrap__content {
+  position: relative;
+  padding-top: 160px;
+}
+.main .intro__wrap__content__heading {
+  position: relative;
+}
+.main .intro__wrap__content__heading h1 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 90px;
+  line-height: 115px;
+  color: #FFFFFF;
+}
+.main .intro__wrap__content__heading img {
+  position: absolute;
+  bottom: 30%;
+}
+.main .intro__wrap__content p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+.main .intro__wrap__content a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  color: #FFFFFF;
+  padding: 16px 30px 18px 30px;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+  transition: 5s;
+}
+.main .intro__wrap__content a:hover {
+  background: linear-gradient(90deg, #28BFD1 0%, #85CFD1 100%);
+  transition: 1s;
+}
+.main .intro__wrap__content__toggles {
+  margin-top: 129px;
+}
+.main .intro__wrap__content__toggles .toggle {
+  cursor: pointer;
+  width: 15px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.main .intro__wrap__content__toggles .toggle--white {
+  background: #FFFFFF;
+}
+.main .intro__wrap__content .center {
+  position: absolute;
+  left: 35%;
+  top: 0;
+}
+.main .intro__wrap__content .right {
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+.main .intro .wave {
+  position: absolute;
+  bottom: 0;
+  background: transparent;
+}
+.main .popModels {
+  background: white;
+}
+.main .popModels__wrap {
+  background: white;
+}
+.main .popModels__wrap h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 44px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.main .popModels__wrap__content {
+  display: flex;
+  align-items: center;
+}
+.main .popModels__wrap__content p {
+  margin-left: 6px;
+  margin-right: 39%;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #444444;
+}
+.main .popModels__wrap__content button {
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  border: 2px solid #21A5B5;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.main .popModels__wrap__content a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  background: #FFFFFF;
+  padding: 16px 30px;
+  border: 1px solid #21A5B5;
+  border-radius: 15px;
+  color: #21A5B5;
+  margin-left: 88px;
+  transition: 1s;
+}
+.main .popModels__wrap__content a:hover {
+  background: linear-gradient(90deg, #28BFD1 0%, #85CFD1 100%);
+  color: white;
+}
+.main .popModels__wrap__itemCards {
+  margin-top: 60px;
+  display: flex;
+  gap: 1%;
+  flex-wrap: wrap;
+}
+.main .popModels__wrap__itemCards article {
+  position: relative;
+}
+.main .popModels__wrap__itemCards article img {
+  background: #F8F8F8;
+}
+.main .popModels__wrap__itemCards article .heart {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+.main .popModels__wrap__itemCards article p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+  margin-top: 25px;
+}
+.main .popModels__wrap__itemCards article span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.main .popModels__wrap__itemCards article .cardSizes .size {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2C2C2C;
+  border-right: 1px solid #E3E3E3;
+  padding-right: 7px;
+  margin-left: 7px;
+}
+.main .popModels__wrap__itemCards article .cardSizes .size:first-child {
+  margin: 0;
+}
+.main .popModels__wrap__itemCards article .cardSizes .size:last-child {
+  border: none;
+}
+.main .trust {
+  padding-top: 230px;
+  background: white;
+  padding-bottom: 120px;
+}
+.main .trust__wrap {
+  position: relative;
+}
+.main .trust__wrap .pink {
+  position: absolute;
+  background: rgba(249, 93, 149, 0.7);
+  filter: blur(125px);
+  left: 0;
+  width: 200px;
+  height: 200px;
+  right: 23%;
+  top: 16%;
+  left: auto;
+}
+.main .trust__wrap .blue {
+  position: absolute;
+  background: rgba(93, 207, 249, 0.7);
+  filter: blur(125px);
+  right: 0;
+  height: 550px;
+  width: 100px;
+  right: 1%;
+  top: 11%;
+}
+.main .trust__wrap .blueTwo {
+  position: absolute;
+  background: rgba(93, 207, 249, 0.7);
+  filter: blur(125px);
+  height: 100px;
+  width: 100px;
+  bottom: -10%;
+  right: 30%;
+}
+.main .trust__wrap__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .trust__wrap__heading h4 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 44px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.main .trust__wrap__heading a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  background: #FFFFFF;
+  padding: 16px 30px;
+  border: 1px solid #21A5B5;
+  border-radius: 15px;
+  color: #21A5B5;
+  transition: 1s;
+}
+.main .trust__wrap__heading a:hover {
+  background: linear-gradient(90deg, #28BFD1 0%, #85CFD1 100%);
+  color: white;
+}
+.main .trust__wrap__reginaFamous {
+  display: flex;
+  margin-top: 60px;
+}
+.main .trust__wrap__reginaFamous .miniCards {
+  display: flex;
+  gap: 20px;
+  margin-right: 40px;
+}
+.main .trust__wrap__reginaFamous .miniCards__images {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+.main .trust__wrap__reginaFamous .miniCards__scroll {
+  background: #F0F0F0;
+  border-radius: 4px;
+  max-width: 10px;
+  min-height: 510px;
+  position: relative;
+}
+.main .trust__wrap__reginaFamous .miniCards__scroll .scrollslider {
+  background: #CFCFCF;
+  border-radius: 2px;
+  width: 4px;
+  min-height: 60px;
+  position: absolute;
+  left: 25%;
+  top: 2%;
+}
+.main .trust__wrap__reginaFamous .miniCards__scroll::after {
+  content: "";
+  background: url(./sections/sectionsImg/scrollarrowdown.png);
+  position: absolute;
+  bottom: 0.5%;
+  left: 25%;
+  width: 4px;
+  height: 4px;
+  display: block;
+}
+.main .trust__wrap__reginaFamous .miniCards__scroll::before {
+  content: "";
+  background: url(./sections/sectionsImg/scrollarrowup.png);
+  position: absolute;
+  top: 0.5%;
+  left: 25%;
+  width: 4px;
+  height: 4px;
+  display: block;
+}
+.main .trust__wrap__reginaFamous .text {
+  background: #FFFFFF;
+  border-radius: 80px;
+  max-width: 536px;
+  min-height: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 144px 105px 144px 121px;
+  box-sizing: border-box;
+  margin-left: 60px;
+  z-index: 5;
+}
+.main .trust__wrap__reginaFamous .text h5 {
+  margin-bottom: 5px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 25px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.main .trust__wrap__reginaFamous .text__subscribes span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 140%;
+  color: #848484;
+}
+.main .trust__wrap__reginaFamous .text__subscribes .inst {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 140%;
+  color: #21A5B5;
+  margin-right: 10px;
+}
+.main .trust__wrap__reginaFamous .text p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  max-width: 310px;
+  color: #2C2C2C;
+}
+.main .trust__wrap__reginaFamous .text__links a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #21A5B5;
+  margin-right: 20px;
+  border-bottom: 1px solid #21A5B5;
+  padding-bottom: 0.3px;
+}
+.main .betterClothing {
+  background: #F8F8F8;
+}
+.main .betterClothing__wrap {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.main .betterClothing__wrap__left h6 {
+  padding-top: 110px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 44px;
+  line-height: 140%;
+  color: #2C2C2C;
+  max-width: 553px;
+  position: relative;
+}
+.main .betterClothing__wrap__left h6::after {
+  content: "";
+  background: url(./sections/sectionsImg/decore_wave.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 622px;
+  height: 69px;
+  position: absolute;
+  bottom: -50%;
+}
+.main .betterClothing__wrap__left__detailsText {
+  padding-top: 180px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 736px;
+}
+.main .betterClothing__wrap__left__detailsText .item {
+  margin-bottom: 90px;
+}
+.main .betterClothing__wrap__left__detailsText .head {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #2C2C2C;
+}
+.main .betterClothing__wrap__left__detailsText p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #2C2C2C;
+  max-width: 290px;
+  margin-top: 15px;
+}
+.main .betterClothing__wrap__right {
+  position: relative;
+  padding-top: 100px;
+}
+.main .betterClothing__wrap__right__text {
+  position: relative;
+}
+.main .betterClothing__wrap__right__text p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #2C2C2C;
+  max-width: 425px;
+  margin-bottom: 15px;
+}
+.main .betterClothing__wrap__right__text::before {
+  content: "";
+  background: url(./sections/sectionsImg/2_conuses.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 28px;
+  height: 25px;
+  top: -20%;
+  left: -8%;
+}
+.main .betterClothing__wrap__right img {
+  position: absolute;
+  bottom: -3%;
+}
+.main .instagram {
+  background: white;
+  padding-top: 110px;
+}
+.main .instagram__wrap h6 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 44px;
+  line-height: 140%;
+  color: #2C2C2C;
+  max-width: 527px;
+}
+.main .instagram__wrap__text {
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .instagram__wrap__text span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #444444;
+  display: block;
+}
+.main .instagram__wrap__text a {
+  padding: 16px 25px;
+  color: #21A5B5;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  transition: 1s;
+  border-radius: 15px;
+  border: 1px solid #21A5B5;
+}
+.main .instagram__wrap__text a:hover {
+  background: linear-gradient(90deg, #28BFD1 0%, #85CFD1 100%);
+  color: white;
+}
+.main .instagram__wrap .instagramPics {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px;
+}
+.main .instagram__wrap .instagramPics__left .miniCards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 682px;
+  gap: 3.1%;
+  margin-top: 26px;
+}
+.main .instagram__wrap .instagramPics__right .miniCards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 682px;
+  gap: 3.1%;
+  margin-bottom: 30px;
+}
+.main .instagram__wrap .instagramPics__right .mainImgRight {
+  margin-top: 59px;
+}

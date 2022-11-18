@@ -1,0 +1,159 @@
+header {
+  border-bottom: 1px solid #E6E8EC;
+  border-top: none;
+}
+header .header__wrap {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header .header__wrap .logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header .header__wrap .logotype:hover {
+  color: #23262F;
+}
+header .header__wrap img {
+  position: absolute;
+  left: -45%;
+}
+header .header__wrap .logotype {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #23262F;
+  border-right: 2px solid #E6E8EC;
+  padding-right: 32px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .header__wrap span {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262F;
+  cursor: pointer;
+  margin-left: 32px;
+}
+header .header__wrap span:hover {
+  color: #777E91;
+  transition: 1s;
+}
+header .header__wrap .Search {
+  position: relative;
+  max-width: 256px;
+  margin-left: 170px;
+}
+header .header__wrap .Search input {
+  border: 2px solid #E6E8EC;
+  border-radius: 8px;
+  background: transparent;
+  padding: 10px 50px 10px 16px;
+  position: relative;
+  outline: none;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+header .header__wrap .Search::after {
+  content: "";
+  background: url(../img/Search.svg);
+  display: block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 33%;
+  right: 5%;
+}
+header .header__wrap input::-moz-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #777E91;
+}
+header .header__wrap input:-ms-input-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #777E91;
+}
+header .header__wrap input::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #777E91;
+}
+header .header__wrap .subscription {
+  position: relative;
+  margin-left: 35px;
+}
+header .header__wrap .subscription .bell {
+  position: static;
+}
+header .header__wrap .subscription .greenCircle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: -12px;
+  top: -13px;
+  background: #45B36B;
+  border-radius: 8px;
+}
+header .header__wrap button {
+  cursor: pointer;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FCFCFD;
+  padding: 12px 16px;
+  background: #3772FF;
+  border-radius: 90px;
+  border: none;
+  margin-right: 12px;
+  margin-left: 24px;
+}
+header .header__wrap button:hover {
+  transition: 1s;
+  background: white;
+  color: #3772FF;
+}
+header .header__wrap a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #23262F;
+  padding: 12px 16px;
+  border: 2px solid #E6E8EC;
+  border-radius: 90px;
+  background: transparent;
+}
+header .header__wrap a:hover {
+  background: #3772FF;
+  transition: 1s;
+  color: white;
+}/*# sourceMappingURL=header.css.map */

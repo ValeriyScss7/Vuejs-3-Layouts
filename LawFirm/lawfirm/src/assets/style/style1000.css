@@ -1,0 +1,250 @@
+.contacts__top {
+  background: #161D27;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.contacts__top .wrap {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  justify-content: space-between;
+}
+.contacts__top .text h6 {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  max-width: 577px;
+}
+.contacts__top .text h6::after {
+  content: "";
+  background: url(../img/paragraph.svg);
+  background-repeat: no-repeat;
+  width: 95px;
+  height: 44px;
+  margin-top: 9px;
+  display: block;
+}
+.contacts__top .text p {
+  margin-top: 43px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  color: #D7D7D7;
+  margin-bottom: 56px;
+  max-width: 628px;
+}
+.contacts__top .text a {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #1F2732;
+  padding: 24px 75px;
+  background: #D1B06B;
+  border: 1px solid #D1B06B;
+}
+.contacts__top .text a:hover {
+  transition: 1s;
+  filter: brightness(120%);
+}
+.contacts__top .callUs {
+  background: #FFFFFF;
+  padding: 30px;
+  max-width: 630px;
+}
+.contacts__top .callUs__content {
+  padding: 65px 84px 78px 55px;
+  border: 15px solid #D7D7D7;
+}
+.contacts__top .callUs__content p {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 55px;
+  letter-spacing: 0.4px;
+  color: #1F2732;
+}
+.contacts__top .callUs__content span {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 411px;
+  display: block;
+  letter-spacing: 0.4px;
+  color: #909090;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+.contacts__top .callUs__content__call {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.contacts__top .callUs__content__call .callText {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  color: #1F2732;
+}
+.contacts__top .callUs__content__call .Phone {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.4px;
+  color: #1F2732;
+  margin: 0;
+}
+.contacts__bottom {
+  background: url(../img/backgroundcontactsbottom.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 805px;
+  padding-top: 140px;
+}
+.contacts__bottom .content {
+  background: #1F2732;
+  padding-left: 100px;
+}
+.contacts__bottom .content .inputes {
+  padding-top: 89px;
+  display: grid;
+  grid-template-columns: 48% 50%;
+  gap: 1.5%;
+}
+.contacts__bottom .content .inputes input {
+  background: transparent;
+  border-bottom: 1px solid #3B434E;
+  padding-bottom: 26px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-top: 1%;
+  outline: none;
+  color: #FFFFFF;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  max-width: 556px;
+  margin-bottom: 3%;
+}
+.contacts__bottom .content .inputes input::-moz-placeholder {
+  color: #FFFFFF;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+}
+.contacts__bottom .content .inputes input:-ms-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+}
+.contacts__bottom .content .inputes input::placeholder {
+  color: #FFFFFF;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+}
+.contacts__bottom .content textarea {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  resize: none;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #3B434E;
+  outline: none;
+  margin-top: 67px;
+  width: 92%;
+  height: 108px;
+}
+.contacts__bottom .content textarea::-moz-placeholder {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+.contacts__bottom .content textarea:-ms-input-placeholder {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+.contacts__bottom .content textarea::placeholder {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+.contacts__bottom .content .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 105px;
+}
+.contacts__bottom .content .btn button {
+  margin-right: 5%;
+  padding: 30px;
+  cursor: pointer;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  color: #3B434E;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  margin-top: 50px;
+}
+.contacts__bottom .content .btn button:hover {
+  transition: 1s;
+  background: #D1B06B;
+}/*# sourceMappingURL=style1000.css.map */

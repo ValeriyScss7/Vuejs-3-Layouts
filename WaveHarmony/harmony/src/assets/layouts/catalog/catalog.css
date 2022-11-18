@@ -1,0 +1,438 @@
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* h6,
+* p {
+  padding: 0;
+  margin: 0;
+}
+* a {
+  text-decoration: none;
+}
+
+.filter {
+  margin-top: 40px;
+}
+.filter__wrap .catalogNav span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #2C2C2C;
+  cursor: pointer;
+}
+.filter__wrap .catalogNav .grey {
+  margin-left: 5px;
+  color: #2C2C2C;
+  opacity: 0.5;
+  font-weight: 400;
+}
+.filter__wrap__heading {
+  margin-top: 50px;
+}
+.filter__wrap__heading h2 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.filter__wrap__nav {
+  margin-top: 40px;
+  display: flex;
+  gap: 39px;
+}
+.filter__wrap__nav .item details summary {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #2C2C2C;
+  margin-right: 7px;
+  cursor: pointer;
+  list-style-type: none;
+}
+.filter__wrap__nav .item span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #2C2C2C;
+  margin-right: 7px;
+  cursor: pointer;
+}
+.filter__wrap__nav .item .active {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  text-align: right;
+  color: #848484;
+}
+.filter__wrap__nav .item--details {
+  position: relative;
+}
+.filter__wrap__nav .item--details details[open] .drod-down {
+  -webkit-animation: spoiler 1s;
+          animation: spoiler 1s;
+}
+@-webkit-keyframes spoiler {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes spoiler {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.filter__wrap__nav .item--details .drod-down {
+  margin-top: 6px;
+  background: white;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0px 1px 5px rgba(28, 30, 45, 0.05), 0px 5px 20px rgba(28, 30, 45, 0.07);
+  border-radius: 5%;
+  position: absolute;
+  z-index: 10;
+}
+.filter__wrap__nav .item--details .form_radio {
+  margin-left: 44px;
+}
+.filter__wrap__nav .item--details .form_radio input {
+  display: none;
+}
+.filter__wrap__nav .item--details .form_radio input[type=radio]:checked + label::before {
+  background: url(../img/checked.png);
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: -30%;
+}
+.filter__wrap__nav .item--details .form_radio input[type=radio]:checked + .individualLabel::before {
+  left: -20%;
+}
+.filter__wrap__nav .item--details .form_radio input[type=radio]:checked + .individualToo::before {
+  left: -35%;
+}
+.filter__wrap__nav .item--details .form_radio input[type=radio]:checked + .labelTwo::before {
+  left: -32%;
+}
+.filter__wrap__nav .item--details .form_radio label {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #2C2C2C;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+}
+.filter__wrap__nav .item--details .form_radio label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background: url(../img/Drop-ellipse.svg);
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 14px;
+  left: -30%;
+  top: 20%;
+}
+.filter__wrap__nav .item--details .form_radio .individualLabel::before {
+  left: -20%;
+}
+.filter__wrap__nav .item--details .form_radio .individualToo::before {
+  left: -35%;
+}
+.filter__wrap__nav .item--details .form_radio .labelTwo::before {
+  left: -32%;
+}
+.filter__wrap__nav .item--details button {
+  padding: 15px 63px;
+  background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+  border-radius: 15px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-left: -5px;
+  border: none;
+  cursor: pointer;
+}
+.filter__wrap__nav .item:last-child {
+  display: flex;
+  margin-left: 14%;
+  gap: 1px;
+}
+.filter__wrap__nav .item:last-child .view {
+  margin-right: 15px;
+}
+.filter__wrap__additionalFilters {
+  margin-top: 21px;
+  align-items: center;
+  display: flex;
+  gap: 7px;
+}
+.filter__wrap__additionalFilters .item button {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #FF4343;
+  padding: 7px 15px;
+  border: 1px solid #E3E3E3;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+.filter__wrap__additionalFilters .item a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #2C2C2C;
+  padding: 7px 33px 7px 15px;
+  border: 1px solid #E3E3E3;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+.filter__wrap__additionalFilters .item a img {
+  margin-left: 10px;
+}
+.filter__wrap__additionalFilters .item--two a {
+  padding-right: 13.5px;
+}
+.filter__wrap__additionalFilters .item:last-child {
+  display: flex;
+}
+.filter__wrap__additionalFilters .item:last-child a {
+  display: flex;
+  align-items: center;
+}
+.filter__wrap__additionalFilters .item:last-child a .color {
+  margin-left: 3px;
+  width: 11px;
+  height: 11px;
+  background: #F56262;
+  border-radius: 100%;
+}
+.filter__wrap__additionalFilters .item:last-child a .color--2 {
+  background: #F7E6BD;
+}
+.filter__wrap__additionalFilters .item:last-child a .color--3 {
+  background: #55CB6F;
+}
+.filter__wrap__additionalFilters .item:last-child a .color--4 {
+  background: #FF1FC0;
+}
+.filter__wrap__additionalFilters .item:last-child a .color--5 {
+  background: #F5BB62;
+}
+.filter__wrap .filterMain {
+  padding-top: 56px;
+  position: relative;
+  display: flex;
+  gap: 10%;
+}
+.filter__wrap .filterMain__left details {
+  cursor: pointer;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #2C2C2C;
+  display: flex;
+  flex-direction: column;
+}
+.filter__wrap .filterMain__left details summary {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.filter__wrap .filterMain__left details span {
+  cursor: pointer;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #2C2C2C;
+  text-transform: capitalize;
+  display: block;
+  margin-left: 1.5%;
+  margin-bottom: 7px;
+}
+.filter__wrap .filterMain__left details span:last-child {
+  margin-bottom: 15px;
+}
+.filter__wrap .filterMain__left details:hover {
+  font-weight: 600;
+}
+.filter__wrap .filterMain__left .orange {
+  color: #F93C00;
+}
+.filter__wrap .filterMain__right {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.filter__wrap .filterMain__right article {
+  transition: 1s;
+  position: relative;
+  max-width: 270px;
+  cursor: pointer;
+}
+.filter__wrap .filterMain__right article img {
+  background: #F8F8F8;
+}
+.filter__wrap .filterMain__right article .heart {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+.filter__wrap .filterMain__right article p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+  margin-top: 25px;
+}
+.filter__wrap .filterMain__right article span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.filter__wrap .filterMain__right article .cardSizes .size {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2C2C2C;
+  border-right: 1px solid #E3E3E3;
+  padding-right: 7px;
+  margin-left: 7px;
+}
+.filter__wrap .filterMain__right article .cardSizes .size:first-child {
+  margin: 0;
+}
+.filter__wrap .filterMain__right article .cardSizes .size:last-child {
+  border: none;
+}
+.filter__wrap .filterMain__right article a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+  border-radius: 15px;
+  box-sizing: border-box;
+  opacity: 0;
+}
+.filter__wrap .filterMain__right article:hover {
+  transition: 1s;
+}
+.filter__wrap .filterMain__right article:hover .girl {
+  opacity: 0.7;
+}
+.filter__wrap .filterMain__right article:hover .cardBottom {
+  margin-top: -40%;
+}
+.filter__wrap .filterMain__right article:hover .cardBottom p {
+  filter: brightness(150%);
+}
+.filter__wrap .filterMain__right article:hover .cardBottom span {
+  filter: brightness(150%);
+}
+.filter__wrap .filterMain__right article:hover a {
+  max-width: 116px;
+  padding: 16px 30px;
+  margin-top: 20px;
+  display: block;
+  opacity: 1;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.filter__wrap .filterMain__right article:hover a:hover {
+  transition: 1s;
+  filter: brightness(90%);
+}
+.filter__wrap .filterMain__right .sale .sale40 {
+  background: #F93C00;
+  border-radius: 10px;
+  width: 56px;
+  min-height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 5%;
+  top: 3%;
+}
+.filter__wrap .filterMain__right .sale .sale40 span {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.filter__wrap .filterMain::before {
+  content: "";
+  border-top: 1px solid #F0F0F0;
+  padding-top: 21px;
+  height: 1px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 20px;
+}
+
+.filter::before {
+  content: "";
+  border-top: 1px solid #F0F0F0;
+  padding-top: 40px;
+  height: 1px;
+  width: 100%;
+  display: block;
+}/*# sourceMappingURL=catalog.css.map */

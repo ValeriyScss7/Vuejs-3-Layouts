@@ -1,0 +1,247 @@
+@import url(./style400.scss);
+@import url(./style600.scss);
+@import url(./style800.scss);
+@import url(./style1000.scss);
+@import url(./style1200.scss);
+@import url(./footer.scss);
+* {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        padding: 0;
+        margin: 0;
+        cursor: default;
+    }
+
+    text-decoration: none;
+
+    
+
+    & span{
+        cursor: default;
+    }
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../fonts/Outfit-Regular.ttf);
+}
+
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: url(../img/headerGround.png);
+    background-repeat: no-repeat;
+
+    & .blackout {
+        background: rgba(31, 39, 50, 0.81);
+    }
+
+    & .header__wrap {
+        &__top {
+            padding-bottom: 45px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 41px;
+
+            & p {
+                font-family: 'Cormorant Garamond';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 70px;
+                line-height: 78px;
+                letter-spacing: 0.4px;
+                color: #FFFFFF;
+                display: flex;
+                align-items: center;
+            }
+
+            & p::before {
+                content: '';
+                background: url(../img//Logo.svg);
+                background-repeat: no-repeat;
+                height: 79px;
+                width: 69px;
+            }
+
+            & a {
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 35px;
+                text-align: center;
+                letter-spacing: 0.4px;
+                color: #FFFFFF;
+                padding: 24px 71px;
+                background: rgba(255, 255, 255, 0.1);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                display: block;
+            }
+
+            & a:hover{
+                background: #D1B06B;
+                color: black;
+                transition: 1s;
+            }
+
+
+        }
+
+        &__bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #4E555F;
+            padding-top: 33px;
+            border-bottom: 1px solid #4E555F;
+            padding-bottom: 35px;
+            margin-bottom: 1%;
+
+            & .left {
+                & span {
+                    font-family: 'Outfit';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 35px;
+                    letter-spacing: 0.4px;
+                    color: #FFFFFF;
+                    margin-right: 46px;
+                    cursor: pointer;
+                }
+
+                & span:hover {
+                    transition: 1s;
+                    color: #D1B06B;
+                }
+            }
+
+            & .right {
+                display: flex;
+                gap: 50px;
+
+                &__item {
+                    display: flex;
+                    gap: 12px;
+
+                    & p {
+                        font-family: 'Outfit';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 29px;
+                        letter-spacing: 0.4px;
+                        color: #D1B06B;
+                    }
+
+                    & span {
+                        font-family: 'Outfit';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 22px;
+                        line-height: 26px;
+                        letter-spacing: 0.4px;
+                        color: #FFFFFF;
+                        margin-top: 1px;
+                    }
+                }
+
+                & .item--one::before {
+                    content: '';
+                    background: url(../img/callme.svg);
+                    background-repeat: no-repeat;
+                    width: 62px;
+                    height: 62px;
+                    display: inline-block;
+                }
+
+                & .item--two::before {
+                    content: '';
+                    background: url(../img/Lettermail.svg);
+                    background-repeat: no-repeat;
+                    width: 62px;
+                    height: 62px;
+                    display: inline-block;
+                }
+            }
+        }
+
+        &__content {
+            background: url(../img/Mancool.png);
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: contain;
+
+            & h1 {
+                font-family: 'Cormorant Garamond';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 65px;
+                line-height: 78px;
+                letter-spacing: 0.4px;
+                color: #FFFFFF;
+                padding-top: 134px;
+                max-width: 669px;
+            }
+
+            & h1::before {
+                content: '';
+                background: url(../img/paragraph.svg);
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 44px;
+                display: block;
+            }
+
+            & p {
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 40px;
+                letter-spacing: 0.4px;
+                color: #D1B06B;
+                margin-top: 21px;
+                max-width: 655px;
+            }
+
+            & button {
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 35px;
+                text-align: center;
+                letter-spacing: 0.4px;
+                color: #1F2732;
+                padding: 25px 71px;
+                background: #D1B06B;
+                border: 1px solid #D1B06B;
+                margin-top: 21px;
+                cursor: pointer;
+                margin-bottom: 155px;
+            }
+
+            & button:hover{
+                filter: brightness(120%);
+                transition: 1s;
+            }
+        }
+    }
+}

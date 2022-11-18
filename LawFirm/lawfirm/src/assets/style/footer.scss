@@ -1,0 +1,157 @@
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #161D27;
+    padding-bottom: 110px;
+
+    .footer__wrap {
+        & .FooterLogo {
+            display: flex;
+            align-items: center;
+            padding-top: 130px;
+
+            & h6 {
+                margin-left: 12px;
+            }
+        }
+
+        & .FooterLogo::before {
+            content: '';
+            background: url(../img/bigCrossLeft.svg);
+            background-repeat: no-repeat;
+            width: 532px;
+            height: 79px;
+            display: block;
+        }
+
+        & .FooterLogo::after {
+            content: '';
+            background: url(../img/bigCrossRight.svg);
+            background-repeat: no-repeat;
+            width: 532px;
+            height: 79px;
+            display: block;
+        }
+
+        &__top {
+            margin-top: 94px;
+            display: flex;
+            gap: 100px;
+
+            & .category {
+                min-width: 184px;
+
+                & p {
+                    font-family: 'Cormorant Garamond';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 39px;
+                    letter-spacing: 0.4px;
+                    color: #FFFFFF;
+                    border-top: 1px solid #3B434E;
+                    border-bottom: 1px solid #3B434E;
+                    padding-top: 21px;
+                    padding-bottom: 21px;
+                }
+
+                &__content {
+                    display: flex;
+                    gap: 100px;
+
+                    & span {
+                        font-family: 'Outfit';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 32px;
+                        letter-spacing: 0.4px;
+                        text-transform: capitalize;
+                        color: #D7D7D7;
+                        margin-bottom: 20px;
+                        display: block;
+                    }
+
+                    & span:first-child {
+                        margin-top: 40px;
+                    }
+                }
+
+                &__contentText {
+                    & span {
+                        font-family: 'Outfit';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 32px;
+                        letter-spacing: 0.4px;
+                        text-transform: capitalize;
+                        color: #D7D7D7;
+                        margin-bottom: 20px;
+                        display: block;
+                    }
+
+                    & span:first-child {
+                        margin-top: 40px;
+                    }
+
+                    & .telephone {
+                        display: block;
+                        margin-top: 70px;
+                    }
+                }
+
+            }
+        }
+
+        &__bottom {
+            border-top: 1px solid #3B434E;
+            padding-top: 27px;
+            border-bottom: 1px solid #3B434E;
+            padding-bottom: 27px;
+            margin-top: 84px;
+            display: flex;
+            justify-content: space-between;
+
+            & .copyright {
+                display: flex;
+                gap: 7px;
+
+                & span {
+                    font-family: 'Outfit';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 32px;
+                    letter-spacing: 0.4px;
+                    color: #D7D7D7;
+                }
+
+                & p {
+                    font-family: 'Outfit';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 35px;
+                    letter-spacing: 0.4px;
+                    color: #D1B06B;
+                }
+            }
+
+            & .socialIcons {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                & p {
+                    font-family: 'Outfit';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 32px;
+                    letter-spacing: 0.4px;
+                    color: #D1B06B;
+                }
+            }
+        }
+    }
+}

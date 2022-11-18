@@ -7,8 +7,8 @@
                 <h1>Ocean</h1>
                 <img src="../assets/layouts/img/Waves.png" alt="">
               </div>
-                <p>с длинными рукавами</p>
-                <router-link :to="'catalog'">Купить Ocean</router-link>
+                <p>With long sleeves</p>
+                <router-link :to="'catalog'">Buy Ocean</router-link>
                 <div class="intro__wrap__content__toggles">
                   <div class="toggle"></div>
                   <div class="toggle toggle--white"></div>

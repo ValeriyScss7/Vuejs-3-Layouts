@@ -3,8 +3,8 @@
     <div class="container header__wrap">
       <div class="header__wrap__top">
         <div class="header__wrap__top__numberText">
-          <p>8 (800) 511 36 39</p>
-          <span>— бесплатно по России</span>
+          <p>+1 (800) 469-92-69</p>
+          <span>— Free Call</span>
         </div>
         <div class="header__wrap__top__logo">
           <router-link :to="'/'">
@@ -25,12 +25,12 @@
                   </div>
 
                   <div class="itemText">
-                    <h6>Kiana - одна строка?</h6>
-                    <p>Размер: S - 42/44</p>
-                    <span>6 600 руб.</span>
+                    <h6>Kiana</h6>
+                    <p>Size: S - 42/44</p>
+                    <span>6 600 r</span>
                     <div class="itemText__bottom">
                       <img src="../assets/layouts/img/-.png" alt="image">
-                      <span>1 шт.</span>
+                      <span>1</span>
                       <img src="../assets/layouts/img/+.png" alt="image">
                       <img class='delete' src="../assets/layouts/img/delete1.svg" alt="">
                     </div>
@@ -45,12 +45,12 @@
                   </div>
 
                   <div class="itemText">
-                    <h6>Kiana - одна строка?</h6>
-                    <p>Размер: S - 42/44</p>
-                    <span>6 600 руб.</span>
+                    <h6>Kiana</h6>
+                    <p>Size: S - 42/44</p>
+                    <span>6 600 r.</span>
                     <div class="itemText__bottom">
                       <img src="../assets/layouts/img/-.png" alt="image">
-                      <span>1 шт.</span>
+                      <span>1.</span>
                       <img src="../assets/layouts/img/+.png" alt="image">
                       <img class='delete' src="../assets/layouts/img/delete1.svg" alt="">
                     </div>
@@ -62,11 +62,11 @@
 
               <div class="basketBottom">
                 <div class="finalPayment">
-                  <span>Итого к оплате:</span>
-                  <span>13 200 руб.</span>
+                  <span>Final Payment:</span>
+                  <span>13 200 r.</span>
                 </div>
                 <router-link :to="'Error404'">
-                  Перейти к оформлению заказа
+                  Go to ordering
                 </router-link>
               </div>
 
@@ -77,16 +77,34 @@
         </div>
       </div>
       <nav class="header__wrap__bottom">
-        <a href="#">Каталог</a>
-        <a href="#">Блог</a>
-        <a href="#">О бренде</a>
-        <a href="#">Размеры</a>
-        <a href="#">Доставка и оплата</a>
-        <a href="#">Отзывы</a>
-        <a href="#">Создай свой купальник</a>
-        <a href="#" class="gift">Сертификаты</a>
-        <a href="#">Контакты</a>
-        <a href="#" class="sale">Распродажа до -40%</a>
+
+        <router-link :to="'Error404'">
+          Catalog
+        </router-link>
+        <router-link :to="'Error404'">
+          Blog
+        </router-link>
+        <router-link :to="'Error404'">
+          About
+        </router-link>
+        <router-link :to="'Error404'">
+          Sizes
+        </router-link>
+        <router-link :to="'Error404'">
+          Shipping and payment
+        </router-link>
+        <router-link :to="'Error404'">
+          Create your swimsuit
+        </router-link>
+        <router-link :to="'Error404'" class="gift">
+          Certificates
+        </router-link>
+        <router-link :to="'Error404'">
+          Contacts
+        </router-link>
+        <router-link :to="'Error404'" class="sale">
+          Sale up to 40%
+        </router-link>
       </nav>
     </div>
 

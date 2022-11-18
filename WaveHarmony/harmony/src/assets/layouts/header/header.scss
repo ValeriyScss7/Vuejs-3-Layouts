@@ -121,6 +121,7 @@
                                 & .delete {
                                     margin-left: 80px;
                                 }
+                                
                             }
                         }
                     }
@@ -144,7 +145,8 @@
                     }
 
                     & a {
-                        display: block;
+                        display: flex;
+                        justify-content: center;
                         margin-top: 20px;
                         padding: 12px 62.5px;
                         font-family: 'Futura PT';
@@ -167,7 +169,7 @@
 
     &__bottom {
         display: flex;
-        gap: 0.6%;
+        gap: 2.7%;
         margin-top: 20px;
 
         & a {

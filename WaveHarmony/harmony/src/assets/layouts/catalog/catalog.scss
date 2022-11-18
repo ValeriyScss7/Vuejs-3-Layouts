@@ -146,15 +146,15 @@
                         }
 
                         +.individualLabel::before {
-                            left: -20%;
+                            left: -34%;
                         }
 
                         +.individualToo::before {
-                            left: -35%;
+                            left: -40%;
                         }
 
                         +.labelTwo::before {
-                            left: -32%;
+                            left: -23%;
                         }
 
 
@@ -185,24 +185,24 @@
                     }
 
                     & .individualLabel::before {
-                        left: -20%;
+                        left: -33%;
                     }
 
                     & .individualToo::before {
-                        left: -35%;
+                        left: -38%;
                     }
 
                     & .labelTwo::before {
-                        left: -32%;
+                        left: -22%;
                     }
 
                 }
 
 
                 & button {
-                    padding: 15px 63px;
+                    padding: 11px 63px;
                     background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
-                    border-radius: 15px;
+                    border-radius: 30px;
                     font-family: 'Futura PT';
                     font-style: normal;
                     font-weight: 450;
@@ -232,7 +232,7 @@
             margin-top: 21px;
             align-items: center;
             display: flex;
-            gap: 7px;
+            gap: 18px;
 
             & .item {
                 & button {
@@ -255,7 +255,7 @@
                     font-size: 16px;
                     line-height: 130%;
                     color: #2C2C2C;
-                    padding: 7px 33px 7px 15px;
+                    padding: 7px 12px 7px 15px;
                     border: 1px solid #E3E3E3;
                     border-radius: 10px;
                     background: #FFFFFF;
@@ -310,10 +310,11 @@
             padding-top: 56px;
             position: relative;
             display: flex;
-            gap: 10%;
+            gap: 6%;
 
             &__left {
                 & details {
+                    width: 140px;
 
                     cursor: pointer;
                     font-family: 'Futura PT';
@@ -329,6 +330,13 @@
                     & summary {
                         list-style-type: none;
                         margin-bottom: 15px;
+                        font-family: 'Futura PT';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 140%;
+                        text-transform: uppercase;
+                        color: #2C2C2C;
                     }
 
                     & span {
@@ -341,7 +349,7 @@
                         color: #2C2C2C;
                         text-transform: capitalize;
                         display: block;
-                        margin-left: 1.5%;
+                        margin-left: 12.5%;
                         margin-bottom: 7px;
                     }
 
@@ -423,7 +431,7 @@
                     }
 
                     & a {
-                        
+
                         font-family: 'Futura PT';
                         font-style: normal;
                         font-weight: 450;
@@ -435,28 +443,33 @@
                         box-sizing: border-box;
                         opacity: 0;
 
-                        
+
                     }
 
                     ;
                 }
 
-                & article:hover{
+                & article:hover {
                     transition: 1s;
-                    & .girl{
+
+                    & .girl {
                         opacity: 0.7;
                     }
-                    & .cardBottom{
+
+                    & .cardBottom {
                         margin-top: -40%;
-                        & p{
-                           filter: brightness(150%);
-                        }
-                        & span{
+
+                        & p {
                             filter: brightness(150%);
                         }
-                        
+
+                        & span {
+                            filter: brightness(150%);
+                        }
+
                     }
-                    & a{
+
+                    & a {
                         max-width: 116px;
                         padding: 16px 30px;
                         margin-top: 20px;
@@ -471,9 +484,13 @@
                         background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
                         border-radius: 15px;
                         box-sizing: border-box;
-                        
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
                     }
-                    & a:hover{
+
+                    & a:hover {
                         transition: 1s;
                         filter: brightness(90%);
                     }

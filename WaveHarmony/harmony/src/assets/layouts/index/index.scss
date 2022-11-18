@@ -70,10 +70,10 @@
                     font-family: 'Futura PT';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 26px;
+                    font-size: 34px;
                     line-height: 140%;
                     color: #FFFFFF;
-                    margin-bottom: 50px;
+                    margin-bottom: 25px;
                 }
 
                 & a {
@@ -88,6 +88,10 @@
                     border: 1px solid #FFFFFF;
                     border-radius: 15px;
                     transition: 5s;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 200px;
+                    display: flex;
                 }
 
                 & a:hover {
@@ -187,7 +191,7 @@
                     border: 1px solid #21A5B5;
                     border-radius: 15px;
                     color: #21A5B5;
-                    margin-left: 88px;
+                    margin-left: 270px;
                     transition: 1s;
                 }
 

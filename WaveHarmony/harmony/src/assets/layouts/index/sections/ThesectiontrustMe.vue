@@ -6,9 +6,9 @@
             <div class="blueTwo"></div>
 
             <div class="trust__wrap__heading">
-                <h4>Нам доверяют</h4>
+                <h4>We are trusted</h4>
                 <router-link :to="'Error404'">
-                    Больше о компании
+                    More about the company
                 </router-link>
             </div>
 
@@ -31,16 +31,16 @@
                 </div>
 
                 <div class="text">
-                    <h5>Регина Тодоренко</h5>
+                    <h5>Regina Todorenko</h5>
                     <div class="text__subscribes">
                         <span class="inst">@reginatodorenko</span>
-                        <span>8,5млн. подписчиков</span>
+                        <span>8,5mln. subscribers</span>
                     </div>
-                    <p>Блогер, телеведущая, певица, звезда передачи «ОрелиРешка», молодая мама и просто
-                        суперхаризматичная персона, ловит волну вместе с Wave Harmony</p>
+                    <p>Blogger, TV presenter, singer, star of the program "OreliReshka", a young mother and just
+                         super charismatic person, catches the wave with Wave Harmony</p>
                     <div class="text__links">
-                        <a href="#">Читать отзыв</a>
-                        <a href="#">Видео Регины</a>
+                        <a href="#">Read review</a>
+                        <a href="#">Video of Regina</a>
                     </div>
 
                 </div>

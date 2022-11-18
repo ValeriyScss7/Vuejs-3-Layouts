@@ -3,18 +3,18 @@
         <div class="container">
 
             <nav class="error__404BreadCrumbs">
-                <span>Главная</span>
+                <span>Home</span>
                 <span class="grey">/404</span>
             </nav>
 
             <div class="error__content">
                 <img src="../assets/layouts/img/404graphic.png" alt="image404">
                 <div class="error__content__text">
-                    <h1>Упс...</h1>
-                    <p>мы опросили каждого серфера на побережье,<br>но никто из них не знает куда уплыла эта страница
+                    <h1>Oops...</h1>
+                    <p>we've interviewed every surfer on the coast,<br>but none of them know where this page went
                     </p>
                     <router-link :to="'catalog'">
-                        Перейти в каталог
+                        Go to catalog
                     </router-link>
                 </div>
             </div>

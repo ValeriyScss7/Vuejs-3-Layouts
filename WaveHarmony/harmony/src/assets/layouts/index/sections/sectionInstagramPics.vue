@@ -1,11 +1,11 @@
 <template>
     <section class="instagram">
         <div class="container instagram__wrap">
-            <h6>Нравятся яркие купальники и вдохновляющие пейзажи?</h6>
+            <h6>Do you like bright swimwear and inspiring landscapes?</h6>
             <div class="instagram__wrap__text">
-                <span>Подписывайтесь на наш инстаграм, там все и даже больше</span>
+                <span>Follow us on Instagram for everything and more</span>
                 <router-link :to="'Error404'">
-                    Подписаться на инстаграм
+                    Follow us on Instagram
                 </router-link>
             </div>
 

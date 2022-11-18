@@ -2,67 +2,67 @@
   <footer class="footer">
     <div class="container footer__wrap">
       <div class="footer__wrap__top">
-        <p>Получайте актуальную информацию о всех скидках,распродажах и новых,трендовых коллекциях</p>
-        <input type="email" placeholder="Введите ваш E-mail" class="mailField">
+        <p>Get up-to-date information about all discounts, sales and new, trendy collections</p>
+        <input type="email" placeholder="Type your email" class="mailField">
         <button><img src="../assets/layouts/img/buttonArrow.png" alt=""></button>
       </div>
 
       <div class="footer__wrap__bottom">
         <div class="footer__wrap__bottom__category">
-          <h5>Полезные ссылки</h5>
+          <h5>Useful links</h5>
           <router-link :to="'catalog'">
-            Каталог
+            Catalog
           </router-link>
           <router-link :to="'Error404'">
-            Блог
+            Blog
           </router-link>
           <router-link :to="'Error404'">
-            О бренде
+            About
           </router-link>
           <router-link :to="'Error404'">
-            Калькулятор
+            Calculator
           </router-link>
           <router-link :to="'Error404'">
-            Размеры
+            Sizes
           </router-link>
           <router-link :to="'Error404'">
-            Доставка и оплата
+            Shippind and payment
           </router-link>
           <router-link :to="'Error404'">
-            Контакты
+            Contacts
           </router-link>
-          <span class="gift">Подарочные сертификаты</span>
-          <span class="saleOrange">Распродажа до -40%</span>
+          <span class="gift">Gift sertificates</span>
+          <span class="saleOrange">Sale up to 40%</span>
         </div>
 
         <div class="footer__wrap__bottom__category">
-          <h5>Категории товаров</h5>
+          <h5>Item Categories</h5>
           <router-link :to="'Error404'">
-            Новая коллекция 2021
+            New Collection 2021
           </router-link>
           <router-link :to="'Error404'">
-            Распродажа купальников
+            Swimwear Sale
           </router-link>
           <router-link :to="'Error404'">
-            Купальники для серфинга
+            Surf swimwear
           </router-link>
           <router-link :to="'Error404'">
-            Лайкра для серфинга
+            Surf Lycra
           </router-link>
           <router-link :to="'Error404'">
-            Слитные купальники
+            One piece swimwear
           </router-link>
           <router-link :to="'Error404'">
-            Раздельные купальники
+            Separate swimwear
           </router-link>
           <router-link :to="'Error404'">
-            Купальники с рукавами
+            Swimwear with sleeves
           </router-link>
           <router-link :to="'Error404'">
-            Купальники без рукавов
+            Swimwear without sleeves
           </router-link>
           <router-link :to="'catalog'">
-            Купальники с чашечками
+            Swimwear with cups
           </router-link>
           
           <span></span>
@@ -75,29 +75,28 @@
         </div>
 
         <div class="footer__wrap__bottom__category category--oftenFind">
-          <h5>Часто ищут</h5>
-          <span>Черные купальники с рукавами</span>
-          <span>Закрытые купальники с рукавами</span>
-          <span>Купальники с сеткой</span>
-          <span>Спортивные купальники для бассейна</span>
-          <span>Купальники с принтом</span>
-          <span>Купальники с закрытыми плечами</span>
+          <h5>Often Searches</h5>
+          <span>Black swimwear with sleeves</span>
+          <span>Sleeveless swimwear</span>
+          <span>Mesh swimwear</span>
+          <span>Sports swimwear for the pool</span>
+          <span>Printed swimwear</span>
+          <span>Off Shoulder Swimwear</span>
         </div>
 
         <div class="footer__wrap__bottom__category category--contacts">
-          <h5>Контактные данные</h5>
-          <p>zakaz@waveharmony.com</p>
+          <h5>Contact details</h5>
+          <p>order@waveharmony.com</p>
           <p class="phoneNumber">8 (800) 511-36-39</p>
           <div class="socialMedia">
-            <img src="../assets/layouts/img/vk.svg" alt="">
+            
             <img src="../assets/layouts/img/whatsapp.svg" alt="">
             <img src="../assets/layouts/img/fb.svg" alt="">
             <img src="../assets/layouts/img/inst.svg" alt="">
           </div>
-          <span class="contactsText">Информация для покупателей</span>
-          <span class="contactsText">Wave Harmony - женская одежда для серфинга и любых других, водных видов
-            спорта.</span>
-          <span class="contactsText">Все права защищены. 2021</span>
+          <span class="contactsText">Information for buyers</span>
+          <span class="contactsText">Wave Harmony - women's clothing for surfing and any other water sports.</span>
+          <span class="contactsText">All rights reserved. 2021</span>
         </div>
 
       </div>

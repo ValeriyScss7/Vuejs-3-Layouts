@@ -1,0 +1,72 @@
+@media(max-width:1200px) {
+    .intro{
+        &__wrap{
+            &__text{
+                margin-left: 62%!important;
+                padding-top: 18%!important;
+                line-height: 30px!important;
+            }
+
+            &__buttons{
+                margin-top: 14%!important;
+                margin-left: 61%!important;
+            }
+
+        }
+    }
+
+    .xboxGamesCards{
+        &__wrap{
+            &__cardbox{
+                & .card_3{
+                        width: 27%!important;
+                    }
+            }
+        }
+    }
+}
+
+@media(max-width:1152px) {
+    .intro{
+        &__wrap{
+            &__text{
+                margin-left: 64%!important;
+                padding-top: 21%!important;
+            }
+
+            &__buttons{
+                margin-top: 14.7%!important;
+                margin-left: 63%!important;
+            }
+
+            &__circles{
+                margin-top: 17%!important;
+            }
+
+        }
+    }
+}
+
+@media(max-width:960px) {
+    .intro{
+        &__wrap{
+            &__text{
+                margin-left: 67%!important;
+                padding-top: 26%!important;
+            }
+
+            &__buttons{
+                margin-top: 17%!important;
+                margin-left: 64%!important;
+            }
+
+            &__circles{
+                margin-top: 17%!important;
+                margin-top: 20%!important;
+                margin-left: 46%!important;
+            }
+
+        }
+    }
+}
+

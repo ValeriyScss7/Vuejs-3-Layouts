@@ -1,0 +1,676 @@
+@font-face {
+    font-family:'HelveticaNeueBlackCondensed';
+    src: url(../font/SFPRODISPLAYMEDIUM.OTF);
+}
+@import url(./xboxMediaStyle.scss);
+@import url(./xboxDetails.scss);
+
+
+
+
+
+
+*{
+    font-weight: 300;
+    text-decoration: none;
+    p{margin: 0;}
+    h2{margin: 0;}
+    h3{
+        margin: 0;
+    }
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.containerxboxGames{
+    max-width: 1340px;
+}
+
+header{
+    background: #373A3C;
+    border-radius: 4px;
+    border-bottom: 3px solid #777777;
+    max-width: 1400px;
+    margin: 0 auto;
+    & .header__wrap{
+        display: flex;
+        padding: 15px 0 13px 0;
+        justify-content: space-between;
+        
+
+        &__right{
+            display: flex;
+            align-items: center;
+            &__item{
+                margin-left: 20px;
+                & img{
+                    margin-left: 8px;
+                }
+
+                & span{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 16px;
+                    line-height: 16px;
+                    color: rgba(255, 255, 255, 0.5);
+                    cursor: pointer;
+                }
+
+                & span:hover{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 16px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+                }
+
+                & input{
+                    background: #FFFFFF;
+                    border: 1px solid #CCCCCC;
+                    border-radius: 4px;
+                    padding: 9px 70px 8px 15px;
+                    margin-left: 37px;
+                    outline: none;
+                }
+
+                ::-webkit-input-placeholder{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #435766;
+                    mix-blend-mode: normal;
+                    opacity: 0.4;
+                }
+
+
+                &__personImg{
+                    margin-left: 10px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+main{
+    
+    & .intro{
+        background-image: url(../img/Star-Wars-Battlefront-II-combat.png);
+        height: 644px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        
+        
+        &__wrap{
+            position: relative;
+            height: 100%;
+            margin-top: -0.1%;
+            
+            &__text{
+                margin-left: 61%;
+                padding-top: 17.5%;
+                line-height: 30px;
+                & h1{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 36px;
+                    color: #FFFFFF;
+                    width: 158px;
+                    margin: 0;
+                }
+
+                & span{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 24px;
+                    color: #FFFFFF;
+                    display: block;
+                    width: 132px;
+                }
+            }
+
+            &__buttons{
+                margin-top: 12%;
+                margin-left: 61%;
+                & a:first-child{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #FFFFFF;
+                    padding: 8px 24px 9px 19px;
+                    background: #8DD83D;
+                    border-radius: 4px;
+                    transition: 0.5s;
+                }
+
+                & a:first-child:hover{
+                    filter: brightness(110%);
+                }
+
+                & a:last-child{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #FFFFFF;
+                    padding: 8px 19px 9px 19px;
+                    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+                    border-radius: 4px;
+                    margin-left: 1%;
+                    transition: 0.5s;
+                }
+
+                & a:last-child:hover{
+                    filter: brightness(75%);
+                }
+                
+            }
+
+            &__Absolutebuttons{
+                & a:first-child{
+                    position: absolute;
+                    top: 50%;
+                    left: -5%;
+                }
+
+                & a:last-child{
+                    right: -5%;
+                    top: 50%;
+                    position: absolute;
+                }
+            }
+
+            &__circles{
+                display: flex;
+                margin-top: 13%;
+                margin-left: 47%;
+                & .circle{
+                    width: 10px;
+                    height: 10px;
+                    background: transparent;
+                    border-radius: 50%;
+                    margin-left: 10px;
+                    cursor: pointer;
+                    transition: 0.5s;
+                }
+
+                & .green{
+                    box-shadow: 0 0 0 1px #8DD83D;
+                }
+
+                & .circle:hover{
+                    background: #8DD83D;
+                }
+            }
+
+            
+        }
+    }
+
+    & .xboxCards{
+        background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+        max-width: 1400px;
+        margin: 0 auto;
+        &__wrap{
+            height: 100%;
+            padding: 64px 0 162px 0;
+            &__heading{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                &__text{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    line-height: 40px;
+                    margin-top: 1.5%;
+                    & p:first-child{
+                        font-family:'HelveticaNeueBlackCondensed';
+                        font-size: 48px;
+                        color: #FFFFFF;
+                        max-width: 313px;
+                        text-align: center;
+                    }
+    
+                    & p:last-child{
+                        font-family:'HelveticaNeueBlackCondensed';
+                        font-size: 36px;
+                        color: #FFFFFF;
+                        max-width: 449px;
+                        text-align: center;
+                    }
+                }
+                
+            }
+
+            &__cardbox{
+                display: flex;
+                justify-content: center;
+                gap: 3.5%;
+                margin-top: 43px;
+                &__card{
+                    border: 1px solid #8DD83D;
+                    border-radius: 4px;
+                    max-width: 320px;
+                    &__top{
+                        min-height: 180px;
+                        height: 1px;
+                    }
+                    &__bottom{
+                        padding: 22px 22px 27px 22px;
+                        background: #FFFFFF;
+                        & span{
+                            font-family:'HelveticaNeueBlackCondensed';
+                            font-size: 18px;
+                            line-height: 21px;
+                            color: #435766;
+                        }
+                        & p{
+                            font-family:'HelveticaNeueBlackCondensed';
+                            font-size: 24px;
+                            line-height: 28px;
+                            color: #435766;
+                            max-width: 221px;
+                            margin-top: 13px;
+                        }
+
+                        & a{
+                            font-family:'HelveticaNeueBlackCondensed';
+                            padding: 22px 23px;
+                            font-size: 16px;
+                            line-height: 21px;
+                            background: #8DD83D;
+                            color: #FFFFFF;
+                            border-radius: 4px;
+                            margin-top: 38px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            transition: 1s;
+                        }
+
+                        & a:hover{
+                            filter: brightness(110%);
+                        }
+                    }
+                }
+
+                .card_two{
+                    & .xboxCards__wrap__cardbox__card__top{
+                        background:#FAFAFA;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                    }
+            
+                    & .xboxCards__wrap__cardbox__card__top::after{
+                        content: '';
+                        background-image: url(../img/xbox\ card2.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 209px;
+                        height: 61px;
+                        display: block;
+                    }
+                    & .xboxCards__wrap__cardbox__card__bottom{
+                        & p{
+                            max-width: 258px;
+                        }
+                        & a{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 20px 64px 24px 64px;
+                        }
+                    }
+                }
+            
+                .card_three{
+                    & .xboxCards__wrap__cardbox__card__top{
+                        background: #FAFAFA;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    & .xboxCards__wrap__cardbox__card__top::after{
+                        content: '';
+                        background-image: url(../img/x\ box\ card3.png);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        display: block;
+                        width: 200px;
+                        height: 114px;
+                    }
+            
+                    & .xboxCards__wrap__cardbox__card__bottom{
+                        & p{
+                            max-width: 193px;
+                        }
+            
+                        & a{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 20px 80px 24px 80px;
+                        }
+                    }
+                }
+
+                
+            }
+
+
+        }
+    }
+
+    & .xboxGamesCards{
+            max-width: 1400px;
+            background:linear-gradient(rgba(23, 23, 23, 0.5), rgba(0, 0, 0, 0.7)),url(../img/XboxGamesPhome.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 880px;
+            margin: 0 auto;
+
+        
+        
+        &__wrap{
+            position: relative;
+            height: 100%;
+            &__heading{
+                & h1{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 36px;
+                    line-height: 42px;
+                    color: #FFFFFF;
+                    margin: 0;
+                    margin-left: 32%;
+                    padding-top: 8%;
+                }
+
+                & img{
+                    position: absolute;
+                    right: 0;
+                    top: 14%;
+                }
+            }
+
+            &__cardbox{
+                position: relative;
+                margin-top: 28px;
+                margin-left: 10%;
+                &__card{
+                    display: inline-block;
+                    max-width: 320px;
+                    border: 1px solid #8DD83D;
+                    
+                    &__top{
+                        min-height: 180px;
+                        height: 1px;
+                    }
+
+                    &__bottom{
+                        background: #FFFFFF;
+                        padding: 22px 21px 27px 21px;
+                        & span{
+                            font-family:'HelveticaNeueBlackCondensed';
+                            font-size: 18px;
+                            line-height: 21px;
+                            color: #435766;
+                        }
+
+                        & p{
+                            font-family:'HelveticaNeueBlackCondensed';
+                            font-size: 21px;
+                            line-height: 25px;
+                            max-width: 254px;
+                            margin-top: 16px;
+                            color: #435766;
+                        }
+
+                        & a{
+                            font-family:'HelveticaNeueBlackCondensed';
+                            font-size: 16px;
+                            line-height: 21px;
+                            color: #FFFFFF;
+                            background: #8DD83D;
+                            border-radius: 4px;
+                            padding: 20px 99px;
+                            margin-top: 57px;
+                            display: block;
+                            margin-bottom: 0.6%;
+                            transition: 1s;
+                        }
+
+                        & a:hover{
+                            filter: brightness(110%);
+                        }
+                    }
+                }
+
+                & .card_2{
+                    max-width: 350px;
+                    display: inline-block;
+                    margin-left: 3%;
+                    
+
+                    & .xboxCards__wrap__cardbox__card__top{
+                        min-height: 198px;
+                        height: 1px;
+                    }
+
+                    & .xboxCards__wrap__cardbox__card__bottom{
+                        padding: 25px 23px 30px 23px;
+                    }
+
+                    & a{
+                        margin-top: 121px;
+                        display: flex;
+                    }
+                }
+
+                & .card_3{
+                    display: inline-block;
+                        margin-left: 3%;
+                    & a{
+                        margin-top: 121px;
+                        display: flex;
+                    }
+                    & img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                
+
+
+            }
+
+            &__button{
+                margin-top: 58px;
+                display: flex;
+                & a{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 21px;
+                    line-height: 21px;
+                    color: #FFFFFF;
+                    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+                    border-radius: 4px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 11px 47px 21px 47px;
+                    max-width: 207px;
+                    transition: 1s;
+                }
+
+                & a:hover{
+                    filter: brightness(75%);
+                }
+            }
+        }
+    }
+
+    & .designLab{
+        & .designLabBackground{
+            background: radial-gradient(100% 100% at 50% 0%, rgba(193, 255, 127, 0.1) 0%, rgba(141, 216, 61, 0.1) 100%);
+            min-height: 480px;
+        }
+        background: url(../img/DesignLabPhone.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 480px;
+        max-width: 1400px;
+        margin: 0 auto;
+        &__wrap{
+            padding-top: 10%;
+            padding-left: 10%;
+            & h2{
+                font-family:'HelveticaNeueBlackCondensed';
+                font-size: 48px;
+                line-height: 56px;
+                color: #FFFFFF;
+                max-width: 367px;
+            }
+            & p {
+                font-family:'HelveticaNeueBlackCondensed';
+                font-size: 24px;
+                line-height: 28px;
+                color: #FFFFFF;
+                max-width: 500px;
+                margin-top: 9px;
+            }
+            &__buttons{
+                margin-top: 37px;
+                display: flex;
+                & button:first-child{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    padding: 20px 61px 19px 52px;
+                    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    transition: 1s;
+                }
+
+                & button:first-child:hover{
+                    filter: brightness(75%);
+                }
+
+                & button:last-child{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    padding: 19px 23px 20px 23px;
+                    background: #8DD83D;
+                    border-radius: 4px;
+                    border: none;
+                    margin-left: 15px;
+                    cursor: pointer;
+                    transition: 1s;
+                }
+
+                & button:last-child:hover{
+                    filter: brightness(110%);
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background: #373A3C;
+    border-radius: 4px;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    & .footer__wrap{
+        padding-top: 58px;
+        &__top{
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            &__category{
+                margin-left: 30%;
+                & h3{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 18px;
+                    line-height: 21px;
+                    cursor: pointer;
+                    color: #7DD42F;
+                }
+    
+                &__text{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+                    margin-top: 30px;
+                    cursor: pointer;
+                }
+            }
+    
+            &__category:last-child{
+                margin-left: 40%;
+                & .footer__wrap__top__category__images{
+                    margin-top: 29px;
+                    & img{
+                        margin-left: 15px;
+                    }
+    
+                    & img:first-child{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+
+        &__bottom{
+            &__line{
+                height: 2px;
+                max-width: 1200px;
+                background: #FFFFFF;
+                opacity: 0.35;
+                margin-top: 49px;
+            }
+            &__text{
+                margin-top: 19px;
+                padding-bottom: 38px;
+                display: flex;
+                justify-content: space-between;
+                & span{
+                    font-family:'HelveticaNeueBlackCondensed';
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+  .intro__wrap__text {
+    margin-left: 62% !important;
+    padding-top: 18% !important;
+    line-height: 30px !important;
+  }
+  .intro__wrap__buttons {
+    margin-top: 14% !important;
+    margin-left: 61% !important;
+  }
+  .xboxGamesCards__wrap__cardbox .card_3 {
+    width: 27% !important;
+  }
+}
+@media (max-width: 1152px) {
+  .intro__wrap__text {
+    margin-left: 64% !important;
+    padding-top: 21% !important;
+  }
+  .intro__wrap__buttons {
+    margin-top: 14.7% !important;
+    margin-left: 63% !important;
+  }
+  .intro__wrap__circles {
+    margin-top: 17% !important;
+  }
+}
+@media (max-width: 960px) {
+  .intro__wrap__text {
+    margin-left: 67% !important;
+    padding-top: 26% !important;
+  }
+  .intro__wrap__buttons {
+    margin-top: 17% !important;
+    margin-left: 64% !important;
+  }
+  .intro__wrap__circles {
+    margin-top: 17% !important;
+    margin-top: 20% !important;
+    margin-left: 46% !important;
+  }
+}/*# sourceMappingURL=xboxMediaStyle.css.map */

@@ -1,0 +1,561 @@
+@import url(./xboxMediaStyle.scss);
+@import url(./xboxDetails.scss);
+@font-face {
+  font-family: "HelveticaNeueBlackCondensed";
+  src: url(../font/SFPRODISPLAYMEDIUM.OTF);
+}
+* {
+  font-weight: 300;
+  text-decoration: none;
+}
+* p {
+  margin: 0;
+}
+* h2 {
+  margin: 0;
+}
+* h3 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.containerxboxGames {
+  max-width: 1340px;
+}
+
+header {
+  background: #373A3C;
+  border-radius: 4px;
+  border-bottom: 3px solid #777777;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header .header__wrap {
+  display: flex;
+  padding: 15px 0 13px 0;
+  justify-content: space-between;
+}
+header .header__wrap__right {
+  display: flex;
+  align-items: center;
+}
+header .header__wrap__right__item {
+  margin-left: 20px;
+}
+header .header__wrap__right__item img {
+  margin-left: 8px;
+}
+header .header__wrap__right__item span {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+header .header__wrap__right__item span:hover {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+header .header__wrap__right__item input {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  padding: 9px 70px 8px 15px;
+  margin-left: 37px;
+  outline: none;
+}
+header .header__wrap__right__item ::-webkit-input-placeholder {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 16px;
+  line-height: 21px;
+  color: #435766;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+header .header__wrap__right__item__personImg {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+main .intro {
+  background-image: url(../img/Star-Wars-Battlefront-II-combat.png);
+  height: 644px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .intro__wrap {
+  position: relative;
+  height: 100%;
+  margin-top: -0.1%;
+}
+main .intro__wrap__text {
+  margin-left: 61%;
+  padding-top: 17.5%;
+  line-height: 30px;
+}
+main .intro__wrap__text h1 {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 36px;
+  color: #FFFFFF;
+  width: 158px;
+  margin: 0;
+}
+main .intro__wrap__text span {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 24px;
+  color: #FFFFFF;
+  display: block;
+  width: 132px;
+}
+main .intro__wrap__buttons {
+  margin-top: 12%;
+  margin-left: 61%;
+}
+main .intro__wrap__buttons a:first-child {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 8px 24px 9px 19px;
+  background: #8DD83D;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+main .intro__wrap__buttons a:first-child:hover {
+  filter: brightness(110%);
+}
+main .intro__wrap__buttons a:last-child {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 8px 19px 9px 19px;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border-radius: 4px;
+  margin-left: 1%;
+  transition: 0.5s;
+}
+main .intro__wrap__buttons a:last-child:hover {
+  filter: brightness(75%);
+}
+main .intro__wrap__Absolutebuttons a:first-child {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+}
+main .intro__wrap__Absolutebuttons a:last-child {
+  right: -5%;
+  top: 50%;
+  position: absolute;
+}
+main .intro__wrap__circles {
+  display: flex;
+  margin-top: 13%;
+  margin-left: 47%;
+}
+main .intro__wrap__circles .circle {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+main .intro__wrap__circles .green {
+  box-shadow: 0 0 0 1px #8DD83D;
+}
+main .intro__wrap__circles .circle:hover {
+  background: #8DD83D;
+}
+main .xboxCards {
+  background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+main .xboxCards__wrap {
+  height: 100%;
+  padding: 64px 0 162px 0;
+}
+main .xboxCards__wrap__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .xboxCards__wrap__heading__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+  margin-top: 1.5%;
+}
+main .xboxCards__wrap__heading__text p:first-child {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 48px;
+  color: #FFFFFF;
+  max-width: 313px;
+  text-align: center;
+}
+main .xboxCards__wrap__heading__text p:last-child {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 36px;
+  color: #FFFFFF;
+  max-width: 449px;
+  text-align: center;
+}
+main .xboxCards__wrap__cardbox {
+  display: flex;
+  justify-content: center;
+  gap: 3.5%;
+  margin-top: 43px;
+}
+main .xboxCards__wrap__cardbox__card {
+  border: 1px solid #8DD83D;
+  border-radius: 4px;
+  max-width: 320px;
+}
+main .xboxCards__wrap__cardbox__card__top {
+  min-height: 180px;
+  height: 1px;
+}
+main .xboxCards__wrap__cardbox__card__bottom {
+  padding: 22px 22px 27px 22px;
+  background: #FFFFFF;
+}
+main .xboxCards__wrap__cardbox__card__bottom span {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 18px;
+  line-height: 21px;
+  color: #435766;
+}
+main .xboxCards__wrap__cardbox__card__bottom p {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 24px;
+  line-height: 28px;
+  color: #435766;
+  max-width: 221px;
+  margin-top: 13px;
+}
+main .xboxCards__wrap__cardbox__card__bottom a {
+  font-family: "HelveticaNeueBlackCondensed";
+  padding: 22px 23px;
+  font-size: 16px;
+  line-height: 21px;
+  background: #8DD83D;
+  color: #FFFFFF;
+  border-radius: 4px;
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+main .xboxCards__wrap__cardbox__card__bottom a:hover {
+  filter: brightness(110%);
+}
+main .xboxCards__wrap__cardbox .card_two .xboxCards__wrap__cardbox__card__top {
+  background: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .xboxCards__wrap__cardbox .card_two .xboxCards__wrap__cardbox__card__top::after {
+  content: "";
+  background-image: url(../img/xbox\ card2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 209px;
+  height: 61px;
+  display: block;
+}
+main .xboxCards__wrap__cardbox .card_two .xboxCards__wrap__cardbox__card__bottom p {
+  max-width: 258px;
+}
+main .xboxCards__wrap__cardbox .card_two .xboxCards__wrap__cardbox__card__bottom a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 64px 24px 64px;
+}
+main .xboxCards__wrap__cardbox .card_three .xboxCards__wrap__cardbox__card__top {
+  background: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .xboxCards__wrap__cardbox .card_three .xboxCards__wrap__cardbox__card__top::after {
+  content: "";
+  background-image: url(../img/x\ box\ card3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  width: 200px;
+  height: 114px;
+}
+main .xboxCards__wrap__cardbox .card_three .xboxCards__wrap__cardbox__card__bottom p {
+  max-width: 193px;
+}
+main .xboxCards__wrap__cardbox .card_three .xboxCards__wrap__cardbox__card__bottom a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 80px 24px 80px;
+}
+main .xboxGamesCards {
+  max-width: 1400px;
+  background: linear-gradient(rgba(23, 23, 23, 0.5), rgba(0, 0, 0, 0.7)), url(../img/XboxGamesPhome.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 880px;
+  margin: 0 auto;
+}
+main .xboxGamesCards__wrap {
+  position: relative;
+  height: 100%;
+}
+main .xboxGamesCards__wrap__heading h1 {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-left: 32%;
+  padding-top: 8%;
+}
+main .xboxGamesCards__wrap__heading img {
+  position: absolute;
+  right: 0;
+  top: 14%;
+}
+main .xboxGamesCards__wrap__cardbox {
+  position: relative;
+  margin-top: 28px;
+  margin-left: 10%;
+}
+main .xboxGamesCards__wrap__cardbox__card {
+  display: inline-block;
+  max-width: 320px;
+  border: 1px solid #8DD83D;
+}
+main .xboxGamesCards__wrap__cardbox__card__top {
+  min-height: 180px;
+  height: 1px;
+}
+main .xboxGamesCards__wrap__cardbox__card__bottom {
+  background: #FFFFFF;
+  padding: 22px 21px 27px 21px;
+}
+main .xboxGamesCards__wrap__cardbox__card__bottom span {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 18px;
+  line-height: 21px;
+  color: #435766;
+}
+main .xboxGamesCards__wrap__cardbox__card__bottom p {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 21px;
+  line-height: 25px;
+  max-width: 254px;
+  margin-top: 16px;
+  color: #435766;
+}
+main .xboxGamesCards__wrap__cardbox__card__bottom a {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #8DD83D;
+  border-radius: 4px;
+  padding: 20px 99px;
+  margin-top: 57px;
+  display: block;
+  margin-bottom: 0.6%;
+  transition: 1s;
+}
+main .xboxGamesCards__wrap__cardbox__card__bottom a:hover {
+  filter: brightness(110%);
+}
+main .xboxGamesCards__wrap__cardbox .card_2 {
+  max-width: 350px;
+  display: inline-block;
+  margin-left: 3%;
+}
+main .xboxGamesCards__wrap__cardbox .card_2 .xboxCards__wrap__cardbox__card__top {
+  min-height: 198px;
+  height: 1px;
+}
+main .xboxGamesCards__wrap__cardbox .card_2 .xboxCards__wrap__cardbox__card__bottom {
+  padding: 25px 23px 30px 23px;
+}
+main .xboxGamesCards__wrap__cardbox .card_2 a {
+  margin-top: 121px;
+  display: flex;
+}
+main .xboxGamesCards__wrap__cardbox .card_3 {
+  display: inline-block;
+  margin-left: 3%;
+}
+main .xboxGamesCards__wrap__cardbox .card_3 a {
+  margin-top: 121px;
+  display: flex;
+}
+main .xboxGamesCards__wrap__cardbox .card_3 img {
+  width: 100%;
+  height: 100%;
+}
+main .xboxGamesCards__wrap__button {
+  margin-top: 58px;
+  display: flex;
+}
+main .xboxGamesCards__wrap__button a {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 21px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 47px 21px 47px;
+  max-width: 207px;
+  transition: 1s;
+}
+main .xboxGamesCards__wrap__button a:hover {
+  filter: brightness(75%);
+}
+main .designLab {
+  background: url(../img/DesignLabPhone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 480px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+main .designLab .designLabBackground {
+  background: radial-gradient(100% 100% at 50% 0%, rgba(193, 255, 127, 0.1) 0%, rgba(141, 216, 61, 0.1) 100%);
+  min-height: 480px;
+}
+main .designLab__wrap {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+main .designLab__wrap h2 {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+  max-width: 367px;
+}
+main .designLab__wrap p {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  max-width: 500px;
+  margin-top: 9px;
+}
+main .designLab__wrap__buttons {
+  margin-top: 37px;
+  display: flex;
+}
+main .designLab__wrap__buttons button:first-child {
+  font-family: "HelveticaNeueBlackCondensed";
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 20px 61px 19px 52px;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 1s;
+}
+main .designLab__wrap__buttons button:first-child:hover {
+  filter: brightness(75%);
+}
+main .designLab__wrap__buttons button:last-child {
+  font-family: "HelveticaNeueBlackCondensed";
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 19px 23px 20px 23px;
+  background: #8DD83D;
+  border-radius: 4px;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 1s;
+}
+main .designLab__wrap__buttons button:last-child:hover {
+  filter: brightness(110%);
+}
+
+footer {
+  background: #373A3C;
+  border-radius: 4px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+footer .footer__wrap {
+  padding-top: 58px;
+}
+footer .footer__wrap__top {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+footer .footer__wrap__top__category {
+  margin-left: 30%;
+}
+footer .footer__wrap__top__category h3 {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #7DD42F;
+}
+footer .footer__wrap__top__category__text {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  cursor: pointer;
+}
+footer .footer__wrap__top__category:last-child {
+  margin-left: 40%;
+}
+footer .footer__wrap__top__category:last-child .footer__wrap__top__category__images {
+  margin-top: 29px;
+}
+footer .footer__wrap__top__category:last-child .footer__wrap__top__category__images img {
+  margin-left: 15px;
+}
+footer .footer__wrap__top__category:last-child .footer__wrap__top__category__images img:first-child {
+  margin-left: 0;
+}
+footer .footer__wrap__bottom__line {
+  height: 2px;
+  max-width: 1200px;
+  background: #FFFFFF;
+  opacity: 0.35;
+  margin-top: 49px;
+}
+footer .footer__wrap__bottom__text {
+  margin-top: 19px;
+  padding-bottom: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer__wrap__bottom__text span {
+  font-family: "HelveticaNeueBlackCondensed";
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=xbox-style.css.map */

@@ -1,0 +1,565 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+* a {
+  text-decoration: none;
+}
+* h1, * h2, * h3, * h4 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93%), url(../img/HeaderPhone.png);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1920px;
+  min-height: 1573px;
+}
+
+.header__wrap {
+  padding-top: 58px;
+}
+.header__wrap__top {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  align-items: center;
+}
+.header__wrap__top__startText span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.header__wrap__top__centerText {
+  margin-left: 35%;
+}
+.header__wrap__top__centerText span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: 1s;
+  display: inline-block;
+}
+.header__wrap__top__centerText span:first-child {
+  margin: 0;
+}
+.header__wrap__top__centerText span:hover {
+  transform: scale(1.3);
+}
+.header__wrap__top__endText {
+  margin-left: 50%;
+}
+.header__wrap__top__endText span {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-left: 18px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 1s;
+  display: inline-block;
+}
+
+.header__wrap__top__endText svg:hover{
+  transition: 1s;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.header__wrap__top__endText span:hover {
+  transform: scale(1.3);
+}
+.header__wrap__center {
+  position: relative;
+  margin-top: 196px;
+}
+.header__wrap__center__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__wrap__center__heading__line {
+  height: 2px;
+  width: 72px;
+  background: #FFC178;
+}
+.header__wrap__center__heading span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #FFC178;
+  margin-left: 32px;
+  display: block;
+}
+.header__wrap__center__mainText {
+  margin-top: 40px;
+  margin-left: 34%;
+}
+.header__wrap__center__mainText h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.header__wrap__center__mainText p {
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0;
+  max-width: 950px;
+}
+.header__wrap__center__leftIcons {
+  position: absolute;
+  left: -2%;
+  top: 25%;
+}
+.header__wrap__center__leftIcons__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.header__wrap__center__leftIcons__wrapper span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  display: block;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+.header__wrap__center__leftIcons__wrapper img {
+  width: 25%;
+  margin-left: 30px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.header__wrap__center__leftIcons__wrapper img:nth-child(2) {
+  margin-top: 50px;
+}
+.header__wrap__center__leftIcons__wrapper img:last-child {
+  width: 15%;
+}
+.header__wrap__center__bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 126px;
+  cursor: pointer;
+  transition: 1s;
+}
+.header__wrap__center__bottom span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.header__wrap__center__bottom img {
+  margin-left: 9px;
+}
+.header__wrap__center__bottom:hover {
+  transform: scale(1.3);
+}
+
+main {
+  background: #000000;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.indonesiaTravel__wrap__top {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4%;
+  margin-right: 6%;
+}
+.indonesiaTravel__wrap__top__left {
+  margin-left: 3%;
+  margin-top: -5%;
+}
+.indonesiaTravel__wrap__top__right {
+  margin-left: 10%;
+}
+.indonesiaTravel__wrap__top__right__heading {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.indonesiaTravel__wrap__top__right__heading .line {
+  width: 72px;
+  height: 2px;
+  background: #FBD784;
+}
+.indonesiaTravel__wrap__top__right__heading span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 24px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #FBD784;
+}
+.indonesiaTravel__wrap__top__right__content h3 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  color: #FFFFFF;
+  margin-top: 27px;
+  max-width: 555px;
+}
+.indonesiaTravel__wrap__top__right__content p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  max-width: 632px;
+}
+.indonesiaTravel__wrap__top__right__link {
+  transition: 1s;
+  cursor: pointer;
+  margin-top: 27px;
+}
+.indonesiaTravel__wrap__top__right__link span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FBD784;
+}
+.indonesiaTravel__wrap__top__right__link img {
+  margin-left: 9px;
+}
+.indonesiaTravel__wrap__top__right__link:hover {
+  transform: scale(1.3);
+}
+.indonesiaTravel__wrap__center {
+  background: url(../img/CenterPhone.png);
+  background-position: center;
+  min-height: 985px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.indonesiaTravel__wrap__center__heading {
+  padding-top: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.indonesiaTravel__wrap__center__heading .lineLeft {
+  height: 2px;
+  width: 72px;
+  background: #FBD784;
+}
+.indonesiaTravel__wrap__center__heading span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #FBD784;
+  padding: 0 29px 0 29px;
+}
+.indonesiaTravel__wrap__center__heading .lineRight {
+  height: 2px;
+  width: 72px;
+  background: #FBD784;
+}
+.indonesiaTravel__wrap__center__text {
+  text-align: center;
+  margin-bottom: 39px;
+}
+.indonesiaTravel__wrap__center__text h3 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 705px;
+  margin: 0 auto;
+}
+.indonesiaTravel__wrap__center__text p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 934px;
+}
+.indonesiaTravel__wrap__center__bottomLink {
+  display: flex;
+  align-items: center;
+  transition: 1s;
+  cursor: pointer;
+}
+.indonesiaTravel__wrap__center__bottomLink span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FBD784;
+}
+.indonesiaTravel__wrap__center__bottomLink img {
+  margin-left: 9px;
+}
+.indonesiaTravel__wrap__center__bottomLink:hover {
+  transform: scale(1.3);
+}
+.indonesiaTravel__wrap__center__absoluteButtons img:first-child {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.indonesiaTravel__wrap__center__absoluteButtons img:last-child {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+.indonesiaTravel__wrap__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 225px;
+}
+.indonesiaTravel__wrap__bottom__left {
+  margin-left: 7%;
+  padding-top: 8%;
+}
+.indonesiaTravel__wrap__bottom__left__heading {
+  display: flex;
+  align-items: center;
+}
+.indonesiaTravel__wrap__bottom__left__heading .line {
+  width: 72px;
+  height: 2px;
+  background: #FBD784;
+}
+.indonesiaTravel__wrap__bottom__left__heading span {
+  margin-left: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #FBD784;
+}
+.indonesiaTravel__wrap__bottom__left__text h3 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  color: #FFFFFF;
+  max-width: 555px;
+  margin-top: 27px;
+}
+.indonesiaTravel__wrap__bottom__left__text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  max-width: 632px;
+  margin-top: 27px;
+}
+.indonesiaTravel__wrap__bottom__left__linkBottom {
+  margin-top: 27px;
+  transition: 1s;
+  cursor: pointer;
+}
+.indonesiaTravel__wrap__bottom__left__linkBottom span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FBD784;
+  margin-right: 9px;
+}
+.indonesiaTravel__wrap__bottom__left__linkBottom:hover {
+  transform: translateX(100%);
+}
+.indonesiaTravel__wrap__bottom__right {
+  margin-right: 7%;
+}
+
+footer {
+  background: #000000;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 262px;
+}
+
+.footer__wrap__top {
+  border-bottom: 2px solid #424242;
+  padding-bottom: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__wrap__top__left h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.footer__wrap__top__right span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.3px;
+  color: #FFFFFF;
+  margin-right: 55px;
+}
+.footer__wrap__top__right a {
+  padding: 24px 75px 23px 70px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  background: #FFA343;
+  border-radius: 8px;
+  transition: 1s;
+  display: inline-block;
+}
+.footer__wrap__top__right a:hover {
+  filter: brightness(150%);
+  transform: scale(1.2);
+}
+.footer__wrap__main {
+  padding-top: 55px;
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+}
+.footer__wrap__main__content:first-child {
+  margin-top: 0;
+  margin-left: 0;
+}
+.footer__wrap__main__content:first-child h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: -0.3px;
+  color: #FFFFFF;
+  max-width: 400px;
+  margin-bottom: 50px;
+  padding-top: 0;
+}
+.footer__wrap__main__content:first-child form {
+  display: flex;
+}
+.footer__wrap__main__content:first-child form ::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.204545px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.footer__wrap__main__content:first-child form input {
+  border-bottom: #303030;
+  background: #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-right: 25%;
+}
+.footer__wrap__main__content:first-child form a {
+  padding: 28px 29px 27px 30px;
+  background: #FFA343;
+  border-radius: 8px 8px 0px 0px;
+  transition: 1s;
+}
+.footer__wrap__main__content:first-child form a:hover {
+  filter: brightness(150%);
+}
+.footer__wrap__main__content {
+  margin-top: 5%;
+  margin-left: 40%;
+}
+.footer__wrap__main__content h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 0px;
+  letter-spacing: -0.231818px;
+  color: #FFD1A0;
+  padding-top: 15%;
+}
+.footer__wrap__main__content span {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 0px;
+  letter-spacing: -0.204545px;
+  color: #FFFFFF;
+  display: block;
+  margin-top: 45px;
+}
+.footer__wrap__main__content:nth-child(3) {
+  margin-left: 60%;
+}
+.footer__wrap__main__content:nth-child(4) {
+  margin-left: 30%;
+  margin-top: 0;
+}
+.footer__wrap__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 136px;
+}
+.footer__wrap__bottom__left {
+  width: 100%;
+}
+.footer__wrap__bottom__left span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.204545px;
+  color: #FFFFFF;
+  margin-left: 5%;
+}
+.footer__wrap__bottom__left span:last-child {
+  margin-left: 50px;
+}
+.footer__wrap__bottom__right {
+  display: flex;
+  align-items: center;
+  margin-right: 3%;
+}
+.footer__wrap__bottom__right img {
+  margin-left: 60px;
+}
+.footer__wrap__copyright {
+  margin-top: 157px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 118px;
+}
+.footer__wrap__copyright span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.5;
+}/*# sourceMappingURL=Style.css.map */

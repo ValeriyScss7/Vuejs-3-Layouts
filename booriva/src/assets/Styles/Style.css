@@ -107,6 +107,7 @@ header {
   width: 0px;
   height: 0px;
   opacity: 0;
+  display: block;
   transition: 0.5s;
   z-index: 10;
 }
@@ -238,6 +239,13 @@ header {
   font-size: 14px;
   line-height: 27px;
   color: #FFFFFF;
+}
+.header__wrap .visibility {
+  opacity: 1 !important;
+  width: 518px !important;
+  min-height: 789px !important;
+  display: block !important;
+  transition: 1s !important;
 }
 .header__wrap__bottom {
   padding-top: 27px;
@@ -2234,7 +2242,7 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
     margin-top: 10px !important;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .header__wrap__top .itemTwo {
     margin-left: 56px !important;
   }

@@ -1,0 +1,261 @@
+$importantcolor: #F16D7F;
+
+
+.shopping_cart {
+    background: #F8F3F4;
+}
+
+.container {
+    & .shop {
+        & h3 {
+            padding: 60px 0 60px 0;
+            color: $importantcolor;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+    }
+
+}
+
+.left_and_right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    padding-top: 96px;
+}
+
+
+.product_card {
+    display: flex;
+    height: 306px;
+
+    &__left {
+        width: 262px;
+
+        & img {
+            width: 262px;
+            height: 306px;
+        }
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        padding: 22px 0 0 32px;
+        background: #FFFFFF;
+        position: relative;
+        width: 390px;
+        box-shadow: 15px 10px 40px rgba(0, 0, 0, 0.21);
+    }
+
+    & h3 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: #222222;
+
+        & .img_mango {
+            display: inline;
+            margin-left: 50px;
+
+        }
+    }
+
+    & button {
+        background: none;
+        border: none;
+        position: absolute;
+        left: 380px;
+    }
+
+    & ul {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        color: #575757;
+        list-style-type: none;
+        padding-top: 42px;
+
+        & .price {
+            color: $importantcolor;
+        }
+
+        & li {
+            margin-top: 6px;
+
+            & input {
+                width: 44px;
+                height: 25px;
+                border: 1px solid #EAEAEA;
+                margin-left: 25px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.product_card_2 {
+    padding-top: 40px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.buttons {
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+
+    & .btn_left {
+        & a {
+            padding: 16px 40px;
+            border: 1px solid #A4A4A4;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            opacity: 0.8;
+        }
+
+        & a:hover {
+
+            transition: 1s;
+            color: #EF5B70;
+            border: 1px solid #EF5B70;
+
+        }
+    }
+
+    & .btn_right {
+        & a {
+            padding: 16px 40px;
+            border: 1px solid #A4A4A4;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            opacity: 0.8;
+        }
+
+        & a:hover{
+            transition: 1s;
+            color: #EF5B70;
+            border: 1px solid #EF5B70;
+        }
+    }
+}
+
+.registration_payment {
+    padding-top: 113px;
+
+    & form {
+        width: 360px;
+        height: 100%;
+
+        & fieldset {
+            border: none;
+
+            &legend {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 19px;
+                color: #222222;
+            }
+
+            & input {
+                padding: 13px 0 13px 17px;
+                border: 1px solid #A4A4A4;
+                width: 358px;
+                margin-top: 21px;
+                color: #222222;
+            }
+
+            & .bangladesh {
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 16px;
+                color: #B1B1B1;
+            }
+
+            & button {
+                margin-top: 24px;
+                background: none;
+                padding: 10px 13px 10px 13px;
+                text-align: center;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 11px;
+                line-height: 13px;
+                color: #4A4A4A;
+                border: 1px solid #A4A4A4;
+            }
+
+
+        }
+    }
+
+}
+
+.totalprice {
+    width: 360px;
+    background: #F5F3F3;
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+
+    & span {
+        margin-left: 218px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;
+        color: #4A4A4A;
+        margin-top: 39px;
+    }
+
+    & p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+        margin-left: 153px;
+        margin-top: 12px;
+    }
+
+    & .price {
+        color: $importantcolor;
+    }
+
+    & .line {
+        background: #E2E2E2;
+        width: 275px;
+        height: 1px;
+        margin-top: 21px;
+        margin-left: 43px;
+    }
+
+    & button {
+        color: #FFFFFF;
+        background: $importantcolor;
+        width: 273px;
+        border: none;
+        padding: 15px 40px;
+        margin-left: 44px;
+        margin-top: 17px;
+        margin-bottom: 42px;
+
+    }
+}

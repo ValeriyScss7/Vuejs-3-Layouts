@@ -1,0 +1,138 @@
+.registration {
+  background: #F8F3F4;
+}
+
+.registration__text h3 {
+  padding: 60px 0 60px 0;
+  color: #F16D7F;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.registration__content {
+  padding-top: 64px;
+}
+
+.left_and_right {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.registration__field {
+  width: 360px;
+}
+.registration__field form fieldset {
+  border: none;
+}
+.registration__field form fieldset legend {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  font-weight: 300;
+}
+.registration__field form fieldset .name {
+  width: 360px;
+  padding: 12px 0 15px 18px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  margin-top: 20px;
+}
+.registration__field .sex {
+  display: flex;
+  margin-top: 30px;
+}
+.registration__field .sex .sex__input {
+  margin-left: 50px;
+}
+.registration__field .sex span {
+  margin-left: 10px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+.registration__field .registration__field__bottom_fieldset {
+  margin-top: 35px;
+}
+.registration__field p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  margin-top: 15px;
+}
+.registration__field button {
+  padding: 16px 0 17px 29px;
+  box-sizing: border-box;
+  width: 167px;
+  border: none;
+  background: #F16D7F;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-top: 39px;
+}
+.registration__field button span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.registration__field button img {
+  margin-left: 20px;
+}
+
+.super_btn {
+  transition: linear 5s;
+  border-radius: 0;
+  transform-origin: bottom right;
+}
+
+.super_btn:hover {
+  background: red;
+  transform: rotatex(1440deg) rotatey(20deg) scale(2) translatex(420px);
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.perks h3 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 29px;
+  color: #000000;
+}
+.perks__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 22px;
+  display: block;
+}
+.perks ul {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+  max-width: 652px;
+  margin-top: 22px;
+}
+.perks ul li {
+  list-style-image: url(../img/spisok.svg);
+  margin-left: 25px;
+  margin-top: 16px;
+}/*# sourceMappingURL=Registration.css.map */

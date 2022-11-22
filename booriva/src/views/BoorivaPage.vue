@@ -62,8 +62,8 @@
                                     </div>
 
                                     <div class="basket__sumOrder">
-                                        <span>Сумма заказа: . . . . . . </span>
-                                        <span class="sum">3 398 р</span>
+                                        <span>Sum of order: . . . . . . </span>
+                                        <span class="sum">3 398 UAH</span>
                                     </div>
 
                                     <div class="basket__bottomButton">

@@ -60,10 +60,10 @@
   font-family: "Futura PT";
   font-style: normal;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 34px;
   line-height: 140%;
   color: #FFFFFF;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .main .intro__wrap__content a {
   font-family: "Futura PT";
@@ -77,6 +77,10 @@
   border: 1px solid #FFFFFF;
   border-radius: 15px;
   transition: 5s;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  display: flex;
 }
 .main .intro__wrap__content a:hover {
   background: linear-gradient(90deg, #28BFD1 0%, #85CFD1 100%);
@@ -159,7 +163,7 @@
   border: 1px solid #21A5B5;
   border-radius: 15px;
   color: #21A5B5;
-  margin-left: 88px;
+  margin-left: 270px;
   transition: 1s;
 }
 .main .popModels__wrap__content a:hover {
@@ -548,4 +552,4 @@
 }
 .main .instagram__wrap .instagramPics__right .mainImgRight {
   margin-top: 59px;
-}
+}/*# sourceMappingURL=index.css.map */

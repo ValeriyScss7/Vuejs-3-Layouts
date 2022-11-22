@@ -127,13 +127,13 @@
   left: -30%;
 }
 .filter__wrap__nav .item--details .form_radio input[type=radio]:checked + .individualLabel::before {
-  left: -20%;
+  left: -34%;
 }
 .filter__wrap__nav .item--details .form_radio input[type=radio]:checked + .individualToo::before {
-  left: -35%;
+  left: -40%;
 }
 .filter__wrap__nav .item--details .form_radio input[type=radio]:checked + .labelTwo::before {
-  left: -32%;
+  left: -23%;
 }
 .filter__wrap__nav .item--details .form_radio label {
   font-family: "Futura PT";
@@ -160,18 +160,18 @@
   top: 20%;
 }
 .filter__wrap__nav .item--details .form_radio .individualLabel::before {
-  left: -20%;
+  left: -33%;
 }
 .filter__wrap__nav .item--details .form_radio .individualToo::before {
-  left: -35%;
+  left: -38%;
 }
 .filter__wrap__nav .item--details .form_radio .labelTwo::before {
-  left: -32%;
+  left: -22%;
 }
 .filter__wrap__nav .item--details button {
-  padding: 15px 63px;
+  padding: 11px 63px;
   background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
-  border-radius: 15px;
+  border-radius: 30px;
   font-family: "Futura PT";
   font-style: normal;
   font-weight: 450;
@@ -195,7 +195,7 @@
   margin-top: 21px;
   align-items: center;
   display: flex;
-  gap: 7px;
+  gap: 18px;
 }
 .filter__wrap__additionalFilters .item button {
   font-family: "Futura PT";
@@ -216,7 +216,7 @@
   font-size: 16px;
   line-height: 130%;
   color: #2C2C2C;
-  padding: 7px 33px 7px 15px;
+  padding: 7px 12px 7px 15px;
   border: 1px solid #E3E3E3;
   border-radius: 10px;
   background: #FFFFFF;
@@ -257,9 +257,10 @@
   padding-top: 56px;
   position: relative;
   display: flex;
-  gap: 10%;
+  gap: 6%;
 }
 .filter__wrap .filterMain__left details {
+  width: 140px;
   cursor: pointer;
   font-family: "Futura PT";
   font-style: normal;
@@ -274,6 +275,13 @@
 .filter__wrap .filterMain__left details summary {
   list-style-type: none;
   margin-bottom: 15px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #2C2C2C;
 }
 .filter__wrap .filterMain__left details span {
   cursor: pointer;
@@ -285,7 +293,7 @@
   color: #2C2C2C;
   text-transform: capitalize;
   display: block;
-  margin-left: 1.5%;
+  margin-left: 12.5%;
   margin-bottom: 7px;
 }
 .filter__wrap .filterMain__left details span:last-child {
@@ -392,6 +400,9 @@
   background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
   border-radius: 15px;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .filter__wrap .filterMain__right article:hover a:hover {
   transition: 1s;

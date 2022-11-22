@@ -15,7 +15,7 @@
 }
 
 header {
-  background: linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93%), url(../img/HeaderPhone.png);
+  background: linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93%), url(./img/HeaderPhone.png);
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,7 +58,7 @@ header {
   margin: 0;
 }
 .header__wrap__top__centerText span:hover {
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 .header__wrap__top__endText {
   margin-left: 50%;
@@ -74,14 +74,8 @@ header {
   transition: 1s;
   display: inline-block;
 }
-
-.header__wrap__top__endText svg:hover{
-  transition: 1s;
-  transform: scale(1.3);
-  cursor: pointer;
-}
 .header__wrap__top__endText span:hover {
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 .header__wrap__center {
   position: relative;
@@ -174,7 +168,7 @@ header {
   margin-left: 9px;
 }
 .header__wrap__center__bottom:hover {
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 
 main {
@@ -247,10 +241,10 @@ main {
   margin-left: 9px;
 }
 .indonesiaTravel__wrap__top__right__link:hover {
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 .indonesiaTravel__wrap__center {
-  background: url(../img/CenterPhone.png);
+  background: url(./img/CenterPhone.png);
   background-position: center;
   min-height: 985px;
   background-repeat: no-repeat;
@@ -325,16 +319,14 @@ main {
   margin-left: 9px;
 }
 .indonesiaTravel__wrap__center__bottomLink:hover {
-  transform: scale(1.3);
+  transform: scale(1.5);
 }
 .indonesiaTravel__wrap__center__absoluteButtons img:first-child {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   left: 10%;
 }
 .indonesiaTravel__wrap__center__absoluteButtons img:last-child {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   right: 10%;

@@ -121,7 +121,8 @@
   color: #2C2C2C;
 }
 .header__wrap__top__right .basket .basketBottom a {
-  display: block;
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
   padding: 12px 62.5px;
   font-family: "Futura PT";
@@ -135,7 +136,7 @@
 }
 .header__wrap__bottom {
   display: flex;
-  gap: 0.6%;
+  gap: 2.7%;
   margin-top: 20px;
 }
 .header__wrap__bottom a {
@@ -184,4 +185,4 @@
   width: auto;
   height: auto;
   opacity: 1;
-}
+}/*# sourceMappingURL=header.css.map */

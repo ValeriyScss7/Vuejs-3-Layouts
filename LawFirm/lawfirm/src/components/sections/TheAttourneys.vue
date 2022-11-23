@@ -6,7 +6,7 @@
             <div class="attourneys__wrap__cards">
 
                 <article class="card">
-                    <img src="./sectionsImg/Man.png" alt="image">
+                    <img src="./sectionsImg/Man.svg" alt="image">
 
                     <div class="socialIcons">
                         <img src="./sectionsImg/Facebook.svg" alt="image">
@@ -21,7 +21,7 @@
                 </article>
 
                 <article class="card">
-                    <img src="./sectionsImg/LawGirl.png" alt="image">
+                    <img src="./sectionsImg/LawGirl.svg" alt="image">
 
                     <div class="socialIcons">
                         <img src="./sectionsImg/Facebook.svg" alt="image">
@@ -36,7 +36,7 @@
                 </article>
 
                 <article class="card">
-                    <img src="./sectionsImg/Man2.png" alt="image">
+                    <img src="./sectionsImg/Man2.svg" alt="image">
 
                     <div class="socialIcons">
                         <img src="./sectionsImg/Facebook.svg" alt="image">

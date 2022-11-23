@@ -5,7 +5,7 @@
                 <h6>Recent Blogs</h6>
 
                 <div class="recent">
-                    <img src="../sections/sectionsImg/RecentBlogs.png" alt="image">
+                    <img src="../sections/sectionsImg/RecentBlogs.svg" alt="image">
 
                     <div class="recent__content">
                         <div class="date">
@@ -70,7 +70,7 @@
 
                 <article class="blogCards__card">
                     <div class="top">
-                        <img src="./sectionsImg/Blog4.png" alt="image">
+                        <img src="./sectionsImg/Blog4.svg" alt="image">
                         <div class="date">
                             <span>Corporate Law</span>
                             <span>Friday, February 4, 2022</span>
@@ -100,7 +100,7 @@
 
                 <article class="blogCards__card">
                     <div class="top">
-                        <img src="./sectionsImg/Blog6.png" alt="image">
+                        <img src="./sectionsImg/Blog6.svg" alt="image">
                         <div class="date">
                             <span>Social Justice</span>
                             <span>Friday, February 4, 2022</span>

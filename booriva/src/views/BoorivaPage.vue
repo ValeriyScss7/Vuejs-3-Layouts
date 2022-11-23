@@ -39,7 +39,7 @@
 
                                     <div class="basket__products">
                                         <article class="basket__products__card">
-                                            <img class="basketPng" src="../assets/img/burgerBasket/BasketImg1.png"
+                                            <img class="basketPng" src="../assets/img/cart2.svg"
                                                 alt="image">
                                             <div class="basket__products__card__content">
                                                 <h4>Bomber Gone Crazy
@@ -50,7 +50,7 @@
                                             </div>
                                         </article>
                                         <article class="basket__products__card">
-                                            <img class="basketPng" src="../assets/img/burgerBasket/BasketImg2.png"
+                                            <img class="basketPng" src="../assets/img/cart1.svg"
                                                 alt="image">
                                             <div class="basket__products__card__content">
                                                 <h4>Dress t-shirt Aquarium</h4>

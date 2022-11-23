@@ -39,7 +39,7 @@
 
                                     <div class="basket__products">
                                         <article class="basket__products__card">
-                                            <img class="basketPng" src="../assets/img/burgerBasket/BasketImg1.png"
+                                            <img class="basketPng" src="../assets/img/cart2.svg"
                                                 alt="image">
                                             <div class="basket__products__card__content">
                                                 <h4>Bomber Gone Crazy
@@ -50,7 +50,7 @@
                                             </div>
                                         </article>
                                         <article class="basket__products__card">
-                                            <img class="basketPng" src="../assets/img/burgerBasket/BasketImg2.png"
+                                            <img class="basketPng" src="../assets/img/cart1.svg"
                                                 alt="image">
                                             <div class="basket__products__card__content">
                                                 <h4>Dress t-shirt Aquarium</h4>
@@ -232,7 +232,7 @@
                         <article class="novelties__wrap__cardbox__card card--one">
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                             <RouterLink to="/product">
-                                <img class="mainImg" src="../assets/img/Cardbox1.png" alt="image">
+                                <img class="mainImg" src="../assets/img/Cardbox1.svg" alt="image">
                             </RouterLink>
                             <div class="novelties__wrap__cardbox__card__bottom">
                                 <p>Sweatshirt in a cage</p>
@@ -243,7 +243,7 @@
                         <article class="novelties__wrap__cardbox__card card--two">
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                             <RouterLink to="/product">
-                                <img class="mainImg" src="../assets/img/Cardbox2.png" alt="image">
+                                <img class="mainImg" src="../assets/img/Cardbox2.svg" alt="image">
                             </RouterLink>
                             <div class="novelties__wrap__cardbox__card__bottom">
                                 <p>Black floral dress</p>
@@ -253,7 +253,7 @@
                         <article class="novelties__wrap__cardbox__card card--three">
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                             <RouterLink to="/product">
-                                <img class="mainImg" src="../assets/img/Cardbox3.png" alt="image">
+                                <img class="mainImg" src="../assets/img/Cardbox3.svg" alt="image">
                             </RouterLink>
                             <div class="novelties__wrap__cardbox__card__bottom">
                                 <p>Bomber gone crazy</p>
@@ -264,7 +264,7 @@
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
 
                             <RouterLink to="/product">
-                                <img class="mainImg" src="../assets/img/Cardbox4.png" alt="image">
+                                <img class="mainImg" src="../assets/img/Cardbox4.svg" alt="image">
                             </RouterLink>
 
 
@@ -355,7 +355,7 @@
                             <article class="banerCards__miniCard">
                                 <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                                 <a href="../Product/boorivaProduct.html">
-                                    <img class="mainImg" src="../assets/img/Minicard1.png" alt="image">
+                                    <img class="mainImg" src="../assets/img/banermini1.svg" alt="image">
                                 </a>
                                 <div class="banerCards__miniCard__bottom">
                                     <p>Bomber Gone Crazy
@@ -367,7 +367,7 @@
                             <article class="banerCards__miniCard">
                                 <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                                 <a href="../Product/boorivaProduct.html">
-                                    <img class="mainImg" src="../assets/img/Minicard1.png" alt="image">
+                                    <img class="mainImg" src="../assets/img/banermini2.svg" alt="image">
                                 </a>
                                 <div class="banerCards__miniCard__bottom">
                                     <p>Bomber Gone Crazy</p>
@@ -376,11 +376,11 @@
                             </article>
                         </div>
 
-                        <img class="banner" src="../assets/img/банер.png" alt="">
+                        <img class="banner" src="../assets/img/Banner.svg" alt="">
                         <article class="banerCards__card">
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                             <a href="../Product/boorivaProduct.html">
-                                <img class="mainImg" src="../assets/img/BannerMainUmgRight.png" alt="image">
+                                <img class="mainImg" src="../assets/img/banerbig.svg" alt="image">
                             </a>
                             <div class="banerCards__card__bottom">
                                 <p>Dress flower black</p>
@@ -470,7 +470,7 @@
                 <div class="container sendingAndExchange__wrap">
 
                     <div class="sendingAndExchange__wrap__item item--one">
-                        <img src="../assets/img/SendingKitty.png" alt="">
+                        <img src="../assets/img/icon_отправка.svg" alt="">
                         <div class="sendingAndExchange__wrap__item__text">
                             <p>Same day dispatch</p>
                             <span class="time">If Order before 18</span>
@@ -479,7 +479,7 @@
                     </div>
 
                     <div class="sendingAndExchange__wrap__item item--two">
-                        <img src="../assets/img/SendingLetter.png" alt="">
+                        <img src="../assets/img/icon_обмен.svg" alt="">
                         <div class="sendingAndExchange__wrap__item__text">
                             <p>Light return/exchange</p>
                             <span>Within 14 days</span>
@@ -487,7 +487,7 @@
                     </div>
 
                     <div class="sendingAndExchange__wrap__item item--three">
-                        <img src="../assets/img/SendingHeart.png" alt="">
+                        <img src="../assets/img/Icon_heart.svg" alt="">
                         <div class="sendingAndExchange__wrap__item__text">
                             <p>Made in Ukraine</p>
                             <span>Directly in Kyiv</span>
@@ -507,8 +507,8 @@
                         <span class="often">We are in ecstasy when you tag us)</span>
                         <span class="miniText--two">Please tag more often</span>
                         <div class="instagram__wrap__left__images">
-                            <img src="../assets/img/InstagramBigLeft.png" alt="image">
-                            <img src="../assets/img/InstagramMiniLeft.png" alt="image">
+                            <img src="../assets/img/instagrambigleft.svg" alt="image">
+                            <img src="../assets/img/instagramleft.svg" alt="image">
                         </div>
                     </div>
                     <div class="instagram__wrap__center">
@@ -517,8 +517,8 @@
 
                     <div class="instagram__wrap__right">
                         <div class="instagram__wrap__right__images">
-                            <img src="../assets/img/InstagramMiniRight.png" alt="image">
-                            <img src="../assets/img/InstagrambigRight.png" alt="image">
+                            <img src="../assets/img/instagramright.svg" alt="image">
+                            <img src="../assets/img/instagrambigright.svg" alt="image">
                         </div>
 
                         <h3>#boorivagirls </h3>

@@ -38,7 +38,7 @@
 
                                     <div class="basket__products">
                                         <article class="basket__products__card">
-                                            <img class="basketPng" src="../assets/img/burgerBasket/BasketImg1.png"
+                                            <img class="basketPng" src="../assets/img/cart2.svg"
                                                 alt="image">
                                             <div class="basket__products__card__content">
                                                 <h4>Bomber Gone Crazy
@@ -49,7 +49,7 @@
                                             </div>
                                         </article>
                                         <article class="basket__products__card">
-                                            <img class="basketPng" src="../assets/img/burgerBasket/BasketImg2.png"
+                                            <img class="basketPng" src="../assets/img/cart1.svg"
                                                 alt="image">
                                             <div class="basket__products__card__content">
                                                 <h4>Dress t-shirt Aquarium</h4>
@@ -159,8 +159,8 @@
                         <span class="often">We are in ecstasy when you tag us)</span>
                         <span class="miniText--two">Please tag more often</span>
                         <div class="instagram__wrap__left__images">
-                            <img src="../assets/img/InstagramBigLeft.png" alt="image">
-                            <img src="../assets/img/InstagramMiniLeft.png" alt="image">
+                            <img src="../assets/img/instagrambigleft.svg" alt="image">
+                            <img src="../assets/img/instagramleft.svg" alt="image">
                         </div>
                     </div>
                     <div class="instagram__wrap__center">
@@ -169,8 +169,8 @@
 
                     <div class="instagram__wrap__right">
                         <div class="instagram__wrap__right__images">
-                            <img src="../assets/img/InstagramMiniRight.png" alt="image">
-                            <img src="../assets/img/InstagrambigRight.png" alt="image">
+                            <img src="../assets/img/instagramright.svg" alt="image">
+                            <img src="../assets/img/instagrambigright.svg" alt="image">
                         </div>
 
                         <h3>#boorivagirls </h3>

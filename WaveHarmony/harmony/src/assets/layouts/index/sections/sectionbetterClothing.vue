@@ -50,7 +50,7 @@
                     <p>Catch your wave with WaveHarmony swimwear.</p>  
                 </div>
 
-                <img src="./sectionsImg/Shadow_pussy.png" alt="">
+                <img src="./sectionsImg/girl+shadow.svg" alt="">
             </div>
         </div>
     </section>

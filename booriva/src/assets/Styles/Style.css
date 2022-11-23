@@ -245,7 +245,7 @@ header {
   width: 518px !important;
   min-height: 789px !important;
   display: block !important;
-  transition: 1s !important;
+  transition: 0.5s !important;
 }
 .header__wrap__bottom {
   padding-top: 27px;
@@ -1100,6 +1100,9 @@ main {
 .instagram__wrap__left__images {
   margin-top: 9.6%;
 }
+.instagram__wrap__left__images img:last-child {
+  margin-left: 5px;
+}
 .instagram__wrap__center {
   background: url(../img/InstagramCenter.png);
   background-repeat: no-repeat;
@@ -1108,10 +1111,8 @@ main {
 .instagram__wrap__right {
   margin-top: 4%;
 }
-.instagram__wrap__right__images {
-  margin-bottom: 18%;
-}
 .instagram__wrap__right__images img:first-child {
+  margin-right: 5px;
   margin-bottom: 9.5%;
 }
 .instagram__wrap__right h3 {
@@ -1479,13 +1480,13 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
   .topProducts .banerCards {
     display: flex;
     position: relative;
+    margin-bottom: 40px;
   }
   .topProducts .banerCards .miniCards {
     display: flex;
     gap: 16px;
   }
   .topProducts .banerCards .banner {
-    min-height: 760px;
     margin-left: 4%;
     max-width: 438px;
   }
@@ -1520,12 +1521,13 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
     max-width: 280.19px;
     min-height: 289.88px;
     position: absolute;
-    left: 0;
-    top: 40%;
+    left: 35px;
+    top: 32%;
   }
   .topProducts .banerCards__card .mainImg {
     max-width: 280.19px;
-    min-height: 289.88px;
+    height: 322px;
+    min-height: auto !important;
   }
   .topProducts .banerCards__card__bottom {
     padding-top: 17px;
@@ -1592,6 +1594,9 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
   .instagram__wrap__left__images img:first-child {
     max-width: 194px !important;
   }
+  .instagram__wrap__left__images img:last-child {
+    max-width: 150px;
+  }
   .instagram__wrap__center {
     position: absolute;
     min-height: 407px;
@@ -1616,12 +1621,12 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
   .instagram__wrap__right h3 {
     position: absolute;
     right: 16%;
-    bottom: 7%;
+    bottom: 8%;
   }
   .instagram__wrap__right p {
     position: absolute;
-    bottom: 0;
-    right: 3%;
+    bottom: 21px;
+    right: 21%;
   }
   footer {
     display: none;
@@ -1945,6 +1950,9 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
     color: #1F1F1F;
     margin-top: 6px;
   }
+  .novelties {
+    display: none;
+  }
   .novelties__wrap__heading h1 {
     font-size: 36px;
     font-weight: 400;
@@ -1959,7 +1967,7 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
   .novelties__wrap__cardbox {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 9px;
     margin-left: 4px;
   }
   .novelties__wrap__cardbox__card {
@@ -1973,12 +1981,19 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
     top: 0%;
     right: -5%;
   }
+  .novelties__wrap__cardbox__card__bottom p {
+    font-size: 12px;
+  }
+  .novelties__wrap__cardbox__card__bottom span {
+    font-size: 14px;
+  }
   .novelties__wrap__cardbox .card--four {
     display: block;
   }
   .newCollection {
     max-width: 479px;
     min-height: 170px;
+    margin-top: 10%;
   }
   .boorivaLocation__wrap {
     padding-top: 0;
@@ -2105,6 +2120,9 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
     background-repeat: no-repeat !important;
     height: 354px !important;
   }
+  .sendingAndExchange {
+    padding-bottom: 240px;
+  }
   .sendingAndExchange__wrap__item img {
     width: 64px;
     height: 73px;
@@ -2134,6 +2152,7 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
     max-width: 136px !important;
   }
   .instagram {
+    display: none;
     padding-bottom: 240px !important;
   }
   .instagram__wrap__left h3 {
@@ -2606,6 +2625,7 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
   }
   .sendingAndExchange {
     padding-top: 40px;
+    padding-bottom: 340px;
   }
   .sendingAndExchange .sendingAndExchange__wrap {
     display: flex;
@@ -2625,6 +2645,7 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
     margin-left: -15px;
   }
   .instagram {
+    display: none;
     padding-bottom: 340px !important;
   }
   .instagram__wrap {

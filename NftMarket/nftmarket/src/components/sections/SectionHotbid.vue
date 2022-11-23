@@ -12,7 +12,7 @@
 
             <div class="hotBid__cardbox">
                 <article class="hotBid__cardbox__card">
-                    <img class="bigCard" src="./sectionsimg/hotcard1.png" alt="imageCard">
+                    <img class="bigCard" src="./sectionsimg/hotbid1.png" alt="imageCard">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>
@@ -35,7 +35,7 @@
                 </article>
 
                 <article class="hotBid__cardbox__card">
-                    <img class="bigCard" src="./sectionsimg/hotcard2.png" alt="imageCard">
+                    <img class="bigCard" src="./sectionsimg/hotbid2.png" alt="imageCard">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>
@@ -58,7 +58,7 @@
                 </article>
 
                 <article class="hotBid__cardbox__card">
-                    <img class="bigCard" src="./sectionsimg/hotcard3.png" alt="imageCard">
+                    <img class="bigCard" src="./sectionsimg/hotbid3.png" alt="imageCard">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>
@@ -81,7 +81,7 @@
                 </article>
 
                 <article class="hotBid__cardbox__card">
-                    <img class="bigCard" src="./sectionsimg/hotcard4.png" alt="imageCard">
+                    <img class="bigCard" src="./sectionsimg/hotbid4.png" alt="imageCard">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>

@@ -13,7 +13,7 @@
 
             <div class="creator">
                 <div class="nftImage">
-                    <img src="../sectionsimg/TabletImgNetwork.png" alt="imagenft">
+                    <img src="../sectionsimg/tabletmaincard.png" alt="imagenft">
 
                     <audio controls>
                         <source src="../sectionsimg/ps5.mp3" type="audio/mp3">
@@ -94,7 +94,7 @@
                 <div class="top">
                     <div class="mainCard">
                         <div class="image">
-                            <img src="../sectionsimg/NFTBIGCARDS2.png" alt="nftimagebig">
+                            <img src="../sectionsimg/nftBig.png" alt="nftimagebig">
                         </div>
 
                         <div class="content">
@@ -120,7 +120,7 @@
                     <div class="miniCards">
                         <article class="miniCards__card">
                             <div class="miniCards__card__image">
-                                <img src="../sectionsimg/nftcard1.png" alt="imagenftcard">
+                                <img src="../sectionsimg/nftmini1.png" alt="imagenftcard">
                             </div>
 
                             <div class="miniCards__card__content">
@@ -139,7 +139,7 @@
 
                         <article class="miniCards__card">
                             <div class="miniCards__card__image">
-                                <img src="../sectionsimg/nftCard2.png" alt="imagenftcard">
+                                <img src="../sectionsimg/nftmini2.png" alt="imagenftcard">
                             </div>
 
                             <div class="miniCards__card__content">
@@ -158,7 +158,7 @@
 
                         <article class="miniCards__card card--3">
                             <div class="miniCards__card__image">
-                                <img src="../sectionsimg/nftcard3.png" alt="imagenftcard">
+                                <img src="../sectionsimg/nftmini3.png" alt="imagenftcard">
                             </div>
 
                             <div class="miniCards__card__content">

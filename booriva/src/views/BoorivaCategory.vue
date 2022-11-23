@@ -38,7 +38,7 @@
 
                                     <div class="basket__products">
                                         <article class="basket__products__card">
-                                            <img class="basketPng" src="../assets/img/burgerBasket/BasketImg1.png"
+                                            <img class="basketPng" src="../assets/img/cart2.svg"
                                                 alt="image">
                                             <div class="basket__products__card__content">
                                                 <h4>Bomber Gone Crazy
@@ -49,7 +49,7 @@
                                             </div>
                                         </article>
                                         <article class="basket__products__card">
-                                            <img class="basketPng" src="../assets/img/burgerBasket/BasketImg2.png"
+                                            <img class="basketPng" src="../assets/img/cart1.svg"
                                                 alt="image">
                                             <div class="basket__products__card__content">
                                                 <h4>Dress t-shirt Aquarium</h4>
@@ -278,7 +278,7 @@
                         <article class="productsFilter__wrap__cardbox__card">
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                             <RouterLink to="/product">
-                                <img class="mainImg" src="../assets/img/1filterImg.png" alt="image">
+                                <img class="mainImg" src="../assets/img/categorycard1.svg" alt="image">
                             </RouterLink>
                             
                             <div class="productsFilter__wrap__cardbox__card__bottom">
@@ -291,7 +291,7 @@
                         <article class="productsFilter__wrap__cardbox__card">
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                             <RouterLink to="/product">
-                                <img class="mainImg" src="../assets/img/2filterImg.png" alt="image">
+                                <img class="mainImg" src="../assets/img/categorycard2.svg" alt="image">
                             </RouterLink>
                             <div class="productsFilter__wrap__cardbox__card__bottom">
                                 <p>Sweatshirt in a cage</p>
@@ -302,7 +302,7 @@
                         <article class="productsFilter__wrap__cardbox__card">
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                             <RouterLink to="/product">
-                                <img class="mainImg" src="../assets/img/3filterImg.png" alt="image">
+                                <img class="mainImg" src="../assets/img/categorycard3.svg" alt="image">
                             </RouterLink>
                             <div class="productsFilter__wrap__cardbox__card__bottom">
                                 <p>Bomber Gone Crazy</p>
@@ -313,7 +313,7 @@
                         <article class="productsFilter__wrap__cardbox__card">
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                             <RouterLink to="/product">
-                                <img class="mainImg" src="../assets/img/4filterImg.png" alt="image">
+                                <img class="mainImg" src="../assets/img/categorycard4.svg" alt="image">
                             </RouterLink>
                             <div class="productsFilter__wrap__cardbox__card__bottom">
                                 <p>Aquarium t-shirt dress</p>
@@ -324,7 +324,7 @@
                         <article class="productsFilter__wrap__cardbox__card">
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                             <RouterLink to="/product">
-                                <img class="mainImg" src="../assets/img/5filterImg.png" alt="image">
+                                <img class="mainImg" src="../assets/img/categorycard5.svg" alt="image">
                             </RouterLink>
                             <div class="productsFilter__wrap__cardbox__card__bottom">
                                 <p>Black floral dress</p>
@@ -335,7 +335,7 @@
                         <article class="productsFilter__wrap__cardbox__card">
                             <img class="heart" src="../assets/img/CardHeart.svg" alt="image">
                             <RouterLink to="/product">
-                                <img class="mainImg" src="../assets/img/6filterImg.png" alt="image">
+                                <img class="mainImg" src="../assets/img/categorycard6.svg" alt="image">
                             </RouterLink>
                             <div class="productsFilter__wrap__cardbox__card__bottom">
                                 <p>Sweatshirt in a cage</p>
@@ -358,8 +358,8 @@
                         <span class="often">We are in ecstasy when you tag us)</span>
                         <span class="miniText--two">Please tag more often</span>
                         <div class="instagram__wrap__left__images">
-                            <img src="../assets/img/InstagramBigLeft.png" alt="image">
-                            <img src="../assets/img/InstagramMiniLeft.png" alt="image">
+                            <img src="../assets/img/instagrambigleft.svg" alt="image">
+                            <img src="../assets/img/instagramleft.svg" alt="image">
                         </div>
                     </div>
                     <div class="instagram__wrap__center">
@@ -368,8 +368,8 @@
 
                     <div class="instagram__wrap__right">
                         <div class="instagram__wrap__right__images">
-                            <img src="../assets/img/InstagramMiniRight.png" alt="image">
-                            <img src="../assets/img/InstagrambigRight.png" alt="image">
+                            <img src="../assets/img/instagramright.svg" alt="image">
+                            <img src="../assets/img/instagrambigright.svg" alt="image">
                         </div>
 
                         <h3>#boorivagirls </h3>

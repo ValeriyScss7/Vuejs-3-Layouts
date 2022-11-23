@@ -6,7 +6,7 @@
 
             <div class="items">
                 <div class="items__item">
-                    <img src="./sectionsimg/collection1.png" alt="collectionimage">
+                    <img src="./sectionsimg/hot1.png" alt="collectionimage">
                     <img src="./sectionsimg/smallcollection1.png" alt="smallcollectionimage">
 
                     <div class="text">
@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="items__item">
-                    <img src="./sectionsimg/collection2.png" alt="collectionimage">
+                    <img src="./sectionsimg/hot2.png" alt="collectionimage">
                     <img src="./sectionsimg/smallcollection2.png" alt="smallcollectionimage">
 
                     <div class="text">
@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="items__item">
-                    <img src="./sectionsimg/collection3.png" alt="collectionimage">
+                    <img src="./sectionsimg/hot3.png" alt="collectionimage">
                     <img src="./sectionsimg/smallcollection3.png" alt="smallcollectionimage">
 
                     <div class="text">

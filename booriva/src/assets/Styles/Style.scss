@@ -302,7 +302,7 @@ header{
         width: 518px !important;
         min-height: 789px !important;
         display: block !important;
-        transition: 1s !important;
+        transition: 0.5s !important;
     }
     &__bottom{
         padding-top: 27px;
@@ -1262,6 +1262,9 @@ main{
 
             &__images{
                 margin-top: 9.6%;
+                & img:last-child{
+                    margin-left: 5px;
+                }
             }
 
         }
@@ -1278,9 +1281,10 @@ main{
             
             &__images{
                 & img:first-child{
+                    margin-right: 5px;
                     margin-bottom: 9.5%;
                 }
-                margin-bottom: 18%;
+                
             }
 
             & h3{
@@ -1803,6 +1807,7 @@ footer{
         & .banerCards {
             display: flex;
             position: relative;
+            margin-bottom: 40px;
 
             & .miniCards {
                 display: flex;
@@ -1810,7 +1815,6 @@ footer{
             }
 
             & .banner {
-                min-height: 760px;
                 margin-left: 4%;
                 max-width: 438px;
             }
@@ -1853,12 +1857,13 @@ footer{
                 max-width: 280.19px;
                 min-height: 289.88px;
                 position: absolute;
-                left: 0;
-                top: 40%;
+                left: 35px;
+                top: 32%;
 
                 & .mainImg {
                     max-width: 280.19px;
-                    min-height: 289.88px;
+                    height: 322px;
+                    min-height: auto !important;
                 }
 
                 &__bottom {
@@ -1945,6 +1950,10 @@ footer{
                 & img:first-child {
                     max-width: 194px !important;
                 }
+
+                & img:last-child{
+                    max-width: 150px;
+                }
             }
 
         }
@@ -1977,13 +1986,13 @@ footer{
             & h3 {
                 position: absolute;
                 right: 16%;
-                bottom: 7%;
+                bottom: 8%;
             }
 
             & p {
                 position: absolute;
-                bottom: 0;
-                right: 3%;
+                bottom: 21px;
+                right: 21%;
             }
         }
     }
@@ -2393,6 +2402,7 @@ footer{
     }
 
     .novelties {
+        display: none;
         &__wrap {
             &__heading {
                 & h1 {
@@ -2413,7 +2423,7 @@ footer{
             &__cardbox {
                 display: flex;
                 flex-wrap: wrap;
-                gap: 24px;
+                gap: 9px;
                 margin-left: 4px;
 
                 &__card {
@@ -2428,6 +2438,15 @@ footer{
                         top: 0%;
                         right: -5%;
                     }
+
+                    &__bottom{
+                        & p{
+                            font-size: 12px;
+                        }
+                        & span{
+                            font-size: 14px;
+                        }
+                    }
                 }
 
                 & .card--four {
@@ -2440,6 +2459,7 @@ footer{
     .newCollection {
         max-width: 479px;
         min-height: 170px;
+        margin-top: 10%;
     }
 
     .boorivaLocation__wrap {
@@ -2600,7 +2620,9 @@ footer{
             }
         }
     }
-
+    .sendingAndExchange{
+        padding-bottom: 240px;
+    }
     .sendingAndExchange__wrap {
         &__item {
             & img {
@@ -2644,6 +2666,7 @@ footer{
     }
 
     .instagram {
+        display: none;
         padding-bottom: 240px !important;
 
         &__wrap {
@@ -3261,6 +3284,7 @@ footer{
 
     .sendingAndExchange {
         padding-top: 40px;
+        padding-bottom: 340px;
 
         .sendingAndExchange__wrap {
             display: flex;
@@ -3285,6 +3309,7 @@ footer{
     }
 
     .instagram {
+        display: none;
         padding-bottom: 340px !important;
         &__wrap {
             padding-top: 0;

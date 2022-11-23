@@ -27,7 +27,7 @@
 
                 </div>
                 <div class="center">
-                    <img src="./sectionsImg/Regina1.png" alt="">
+                    <img src="./sectionsImg/Regina1.svg" alt="imageFamous">
                 </div>
 
                 <div class="text">

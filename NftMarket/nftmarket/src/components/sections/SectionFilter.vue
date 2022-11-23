@@ -83,7 +83,7 @@
 
             <div class="filter__wrap__cardbox">
                 <article class="filter__wrap__cardbox__card">
-                    <img src="./sectionsimg/Cardbox1.png" alt="">
+                    <img src="./sectionsimg/hotbid4.png" alt="imageFilter">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>
@@ -106,7 +106,7 @@
                 </article>
 
                 <article class="filter__wrap__cardbox__card">
-                    <img src="./sectionsimg/Cardbox8.png" alt="">
+                    <img src="./sectionsimg/hotbid1.png" alt="imageFilter">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>
@@ -129,7 +129,7 @@
                 </article>
 
                 <article class="filter__wrap__cardbox__card">
-                    <img src="./sectionsimg/Cardbox3.png" alt="">
+                    <img src="./sectionsimg/hotbid2.png" alt="imageFilter">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>
@@ -152,7 +152,7 @@
                 </article>
 
                 <article class="filter__wrap__cardbox__card">
-                    <img src="./sectionsimg/Cardbox4.png" alt="">
+                    <img src="./sectionsimg/hotbid3.png" alt="imageFilter">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>
@@ -175,7 +175,7 @@
                 </article>
 
                 <article class="filter__wrap__cardbox__card">
-                    <img src="./sectionsimg/Cardbox5.png" alt="">
+                    <img src="./sectionsimg/gotbid5.png" alt="imageFilter">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>
@@ -198,7 +198,7 @@
                 </article>
 
                 <article class="filter__wrap__cardbox__card">
-                    <img src="./sectionsimg/Cardbox6.png" alt="">
+                    <img src="./sectionsimg/hotbid6.png" alt="imageFilter">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>
@@ -221,7 +221,7 @@
                 </article>
 
                 <article class="filter__wrap__cardbox__card">
-                    <img src="./sectionsimg/Cardbox7.png" alt="">
+                    <img src="./sectionsimg/hotbid7.png" alt="imageFilter">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>
@@ -244,7 +244,7 @@
                 </article>
 
                 <article class="filter__wrap__cardbox__card">
-                    <img src="./sectionsimg/Cardbox8.png" alt="">
+                    <img src="./sectionsimg/hotbid8.png" alt="imageFilter">
 
                     <div class="crypt">
                         <p>Amazing digital art</p>

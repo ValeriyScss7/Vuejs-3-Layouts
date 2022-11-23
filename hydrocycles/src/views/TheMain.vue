@@ -35,12 +35,14 @@
 
         <div class="header__mobile">
             <div class="container header__mobile__wrap">
-                <div class="burger_open">
+                <div class="burger_open" @click="addClass()">
                     <img class="header__mobile__burgerImg" src="../assets/img/Burgermedia.svg" alt="">
-                </div>
-                <div class="burgerMenu">
+
                     <nav class="burger">
                         <div class="burger__wrap">
+                            <div class="burger__wrap__item item--img" @click="removeClass()">
+                                <img src="../assets/img/BurgerClose.png" alt="imageclose">
+                            </div>
                             <div class="burger__wrap__item">
                                 <img src="../assets/img/burgeritem1,2.svg" alt="">
                                 <span>Sign up</span>
@@ -81,9 +83,7 @@
                     </nav>
                 </div>
 
-                <div class="burgerCloseBtn">
-                    <img src="../assets/img/BurgerClose.png" class="burgerClose" alt="">
-                </div>
+
 
                 <h3 class="header__mobile__text">DRIVE MOTO</h3>
                 <div class="header__right">
@@ -362,7 +362,7 @@
                         <div class="switchCirclesMobile__circle"></div>
                         <div class="switchCirclesMobile__circle"></div>
                     </div>
-                    
+
                     <div class="popproducts__wrap__button">
                         <RouterLink to="/catalog">Show more</RouterLink>
                     </div>
@@ -523,3 +523,14 @@
 
     </div>
 </template>
+
+<script>
+    export default {
+        name:'BurgerBaskett',
+        methods: {
+            addClass() {
+                this.$el.querySelector('.burger').classList.toggle('visibility');
+            },
+        }
+    }
+</script>

@@ -63,7 +63,7 @@
 
                 <div class="indonesiaTravel__wrap__top">
                     <div class="indonesiaTravel__wrap__top__left">
-                        <img src="../assets/img/TOpleftImg.png" alt="img">
+                        <img src="../assets/img/TOpleftimg.svg">
                     </div>
 
                     <div class="indonesiaTravel__wrap__top__right">
@@ -96,7 +96,7 @@
 
                     <div class="indonesiaTravel__wrap__center__text">
                         <h3>Steady your steps, we will climb together!</h3>
-                        <p></p>
+                        <p>Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
                     </div>
 
                     <div class="indonesiaTravel__wrap__center__bottomLink">
@@ -132,7 +132,7 @@
                     </div>
 
                     <div class="indonesiaTravel__wrap__bottom__right">
-                        <img src="../assets/img/BottomRightimg.png" alt="">
+                        <img src="../assets/img/BottomRightimg.png" alt="image">
                     </div>
                 </div>
 

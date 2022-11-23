@@ -15,7 +15,7 @@
 }
 
 header {
-  background: linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93%), url(./img/HeaderPhone.png);
+  background: linear-gradient(330.24deg, rgba(0, 0, 0, 0) 31.06%, #000000 108.93%), url(../img/HeaderPhone.png);
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -244,7 +244,7 @@ main {
   transform: scale(1.5);
 }
 .indonesiaTravel__wrap__center {
-  background: url(./img/CenterPhone.png);
+  background: url(../img/CenterPhone.png);
   background-position: center;
   min-height: 985px;
   background-repeat: no-repeat;

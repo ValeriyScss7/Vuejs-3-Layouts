@@ -47,6 +47,7 @@
             &__content {
                 position: relative;
                 padding-top: 160px;
+                margin-left: 1.5%;
 
                 &__heading {
                     position: relative;
@@ -135,6 +136,7 @@
             position: absolute;
             bottom: 0;
             background: transparent;
+            left: 0;
         }
 
 
@@ -172,6 +174,7 @@
                 }
 
                 & button {
+                    display: flex;
                     padding: 20px;
                     background: #FFFFFF;
                     border-radius: 15px;
@@ -205,6 +208,7 @@
                 margin-top: 60px;
                 display: flex;
                 gap: 1%;
+                justify-content: center;
                 flex-wrap: wrap;
 
                 & article {
@@ -400,6 +404,12 @@
                         width: 4px;
                         height: 4px;
                         display: block;
+                    }
+                }
+
+                & .center{
+                    & img{
+                        width: 100%;
                     }
                 }
 
@@ -671,7 +681,64 @@
 
 
 
+    @media(max-width:1300px) {
+        .intro__wrap__content{
+            margin-left: 2%;
+            & .center{
+                left: 27%;
+            }
+        }
+    
+        .popModels__wrap__content{
+            & p{
+                margin-right: 31%;
+            }
+        }
 
+        & .instagram{
+            & .instagramPics{
+                & img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+    @media(max-width:1200px) {
+        .intro__wrap__content{
+            & .right{
+                right: -8%;
+            }
+        }
+    
+        .popModels__wrap__content{
+            & p{
+                margin-right: 26%;
+            }
+        }
+    
+        .trust__wrap__reginaFamous{
+            & .text{
+                &__links{
+                    & a{
+                        margin-right: 8px;
+                    }
+                    
+                }
+            }
+        }
+
+        .instagram__wrap{
+            & .instagramPics{
+                & .mainImgRight{
+                    margin-top: 52px;
+                }
+            }
+        }
+    
+        
+    }
 
 
 }
+

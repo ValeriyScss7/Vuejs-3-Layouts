@@ -24,6 +24,9 @@
   align-items: flex-start;
   gap: 10px;
 }
+.hotCollections .items__item .collectionImg {
+  border-radius: 15px;
+}
 .hotCollections .items__item .text p {
   font-family: "Poppins";
   font-style: normal;

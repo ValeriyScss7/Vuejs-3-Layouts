@@ -210,11 +210,12 @@
                 color: #FFFFFF;
             }
 
-            & .btn{
+            & .btn {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 padding-bottom: 105px;
+
                 & button {
                     margin-right: 5%;
                     padding: 30px;
@@ -231,12 +232,43 @@
                     margin-top: 50px;
                 }
 
-                & button:hover{
+                & button:hover {
                     transition: 1s;
                     background: #D1B06B;
                 }
             }
-            
+
+        }
+    }
+
+    @media(max-width:1300px) {
+        .contacts__top {
+            & .wrap {
+                padding-bottom: 115px;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 60px;
+
+                & .text {
+                    & h6 {
+                        text-align: center;
+                        max-width: 626px;
+                    }
+
+                    & h6::after {
+                        display: none;
+                    }
+
+                    & p {
+                        max-width: 650px;
+                        text-align: center;
+                    }
+
+                    & a{
+                        margin-left: 29%;
+                    }
+                }
+            }
         }
     }
 }

@@ -40,6 +40,7 @@
 .main .intro__wrap__content {
   position: relative;
   padding-top: 160px;
+  margin-left: 1.5%;
 }
 .main .intro__wrap__content__heading {
   position: relative;
@@ -115,6 +116,7 @@
   position: absolute;
   bottom: 0;
   background: transparent;
+  left: 0;
 }
 .main .popModels {
   background: white;
@@ -145,6 +147,7 @@
   color: #444444;
 }
 .main .popModels__wrap__content button {
+  display: flex;
   padding: 20px;
   background: #FFFFFF;
   border-radius: 15px;
@@ -174,6 +177,7 @@
   margin-top: 60px;
   display: flex;
   gap: 1%;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .main .popModels__wrap__itemCards article {
@@ -339,6 +343,9 @@
   width: 4px;
   height: 4px;
   display: block;
+}
+.main .trust__wrap__reginaFamous .center img {
+  width: 100%;
 }
 .main .trust__wrap__reginaFamous .text {
   background: #FFFFFF;
@@ -552,4 +559,32 @@
 }
 .main .instagram__wrap .instagramPics__right .mainImgRight {
   margin-top: 59px;
+}
+@media (max-width: 1300px) {
+  .main .intro__wrap__content {
+    margin-left: 2%;
+  }
+  .main .intro__wrap__content .center {
+    left: 27%;
+  }
+  .main .popModels__wrap__content p {
+    margin-right: 31%;
+  }
+  .main .instagram .instagramPics img {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .main .intro__wrap__content .right {
+    right: -8%;
+  }
+  .main .popModels__wrap__content p {
+    margin-right: 26%;
+  }
+  .main .trust__wrap__reginaFamous .text__links a {
+    margin-right: 8px;
+  }
+  .main .instagram__wrap .instagramPics .mainImgRight {
+    margin-top: 52px;
+  }
 }/*# sourceMappingURL=index.css.map */

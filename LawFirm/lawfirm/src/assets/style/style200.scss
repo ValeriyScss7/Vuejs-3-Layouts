@@ -244,4 +244,12 @@ header {
             }
         }
     }
+
+    @media(max-width:1300px){
+        .header__wrap{
+            &__content{
+                margin-left: 3%;
+            }
+        }
+    }
 }

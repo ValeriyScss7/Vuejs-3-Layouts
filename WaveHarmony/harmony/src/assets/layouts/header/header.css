@@ -185,4 +185,15 @@
   width: auto;
   height: auto;
   opacity: 1;
+}
+
+@media (max-width: 1300px) {
+  .header__wrap__bottom {
+    gap: 1.7%;
+  }
+}
+@media (max-width: 1200px) {
+  .header__wrap__bottom {
+    gap: 0.7%;
+  }
 }/*# sourceMappingURL=header.css.map */

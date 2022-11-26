@@ -45,7 +45,7 @@
             </div>
             <div class="betterClothing__wrap__right">
                 <div class="betterClothing__wrap__right__text">
-                    <p>People are like waves - unique in nature.</p> 
+                    <p>People are like waves - unique in nature.</p>
                     <p>Our Lycras are produced in limited quantities, this helps to emphasize your individuality.</p>
                     <p>Catch your wave with WaveHarmony swimwear.</p>  
                 </div>

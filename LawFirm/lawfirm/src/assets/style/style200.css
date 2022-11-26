@@ -210,4 +210,9 @@ header .header__wrap__content button {
 header .header__wrap__content button:hover {
   filter: brightness(120%);
   transition: 1s;
+}
+@media (max-width: 1300px) {
+  header .header__wrap__content {
+    margin-left: 3%;
+  }
 }/*# sourceMappingURL=style200.css.map */

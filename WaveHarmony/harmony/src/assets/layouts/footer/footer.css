@@ -149,4 +149,12 @@
 }
 .footer__wrap__bottom .category--oftenFind {
   justify-self: center;
+}
+@media (max-width: 1300px) {
+  .footer__wrap .footer__wrap__top button {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=footer.css.map */

@@ -186,4 +186,9 @@
 }
 .attourneys__wrap__cards .card:hover .socialIcons {
   opacity: 1;
+}
+@media (max-width: 1300px) {
+  .attourneys .attourneys__wrap__cards .attourneysImg {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style800.css.map */

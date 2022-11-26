@@ -438,6 +438,16 @@
   position: absolute;
   top: 20px;
 }
+@media (max-width: 1300px) {
+  .filter .filter__wrap__nav {
+    gap: 36px;
+  }
+}
+@media (max-width: 1200px) {
+  .filter .filter__wrap__nav {
+    gap: 23px;
+  }
+}
 
 .filter::before {
   content: "";

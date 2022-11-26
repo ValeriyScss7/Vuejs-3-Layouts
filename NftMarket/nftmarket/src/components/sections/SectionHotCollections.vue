@@ -6,7 +6,7 @@
 
             <div class="items">
                 <div class="items__item">
-                    <img src="./sectionsimg/hot1.png" alt="collectionimage">
+                    <img class="collectionImg" src="./sectionsimg/hot1.png" alt="collectionimage">
                     <img src="./sectionsimg/smallcollection1.png" alt="smallcollectionimage">
 
                     <div class="text">

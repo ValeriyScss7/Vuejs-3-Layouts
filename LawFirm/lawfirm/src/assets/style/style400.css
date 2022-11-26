@@ -132,6 +132,14 @@
   color: #1F2732;
   margin: 0;
 }
+@media (max-width: 1300px) {
+  .welcome .welcome__wrap__content {
+    padding-top: 120px;
+  }
+  .welcome .welcome__wrap__images {
+    margin-left: 1%;
+  }
+}
 
 .practice {
   background: #161D27;
@@ -231,6 +239,19 @@
   transition: 1s;
   color: black;
   background: #D1B06B;
+}
+@media (max-width: 1300px) {
+  .practice .practice__heading {
+    padding-top: 80px;
+    margin-left: 1%;
+  }
+  .practice .practice__heading p {
+    margin-bottom: 4%;
+  }
+  .practice .practice__lawCards {
+    gap: 130px;
+    justify-content: center;
+  }
 }
 
 .advantages {

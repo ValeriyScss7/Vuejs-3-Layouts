@@ -34,7 +34,7 @@
                     <h5>Regina Todorenko</h5>
                     <div class="text__subscribes">
                         <span class="inst">@reginatodorenko</span>
-                        <span>8,5mln. subscribers</span>
+                        <span>8,5mln subscribers</span>
                     </div>
                     <p>Blogger, TV presenter, singer, star of the program "OreliReshka", a young mother and just
                          super charismatic person, catches the wave with Wave Harmony</p>

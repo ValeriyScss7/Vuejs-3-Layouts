@@ -214,4 +214,14 @@
             }
         }
     }
+
+    @media(max-width:1300px){
+        .attourneys__wrap{
+            &__cards{
+                & .attourneysImg{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }

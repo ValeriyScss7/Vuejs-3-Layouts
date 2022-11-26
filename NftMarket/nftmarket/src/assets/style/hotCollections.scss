@@ -24,6 +24,9 @@
             flex-direction: column;
             align-items: flex-start;
             gap: 10px;
+            & .collectionImg{
+                border-radius: 15px;
+            }
             & .text {
                 & p {
                     font-family: 'Poppins';

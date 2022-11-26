@@ -17,12 +17,9 @@
               <img class="center" src="../assets/layouts/img/pussy_center.png" alt="">
               <img class="right" src="../assets/layouts/img/pussy_right.png" alt="">
             </div>
-            
+            <img src="../assets/layouts/img/wave.png"  class='wave' alt="">
             
           </div>
-          
-          <img src="../assets/layouts/img/wave.png" alt="image" class="wave">
-          
         </section>
 
         <sectionpopModels />

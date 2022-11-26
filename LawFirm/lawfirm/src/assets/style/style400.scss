@@ -147,6 +147,17 @@
             }
         }
     }
+
+    @media(max-width:1300px){
+        .welcome__wrap{
+           &__content{
+               padding-top: 120px;
+           }
+           &__images{
+               margin-left: 1%;
+           }
+       }
+   }
 }
 
 .practice {
@@ -261,6 +272,21 @@
             }
         }
     }
+
+    @media(max-width:1300px){
+        .practice__heading{
+            padding-top: 80px;
+            margin-left: 1%;
+            & p{
+                margin-bottom: 4%;
+            }
+        }
+
+        .practice__lawCards{
+            gap: 130px;
+            justify-content: center;
+        }
+   }
 }
 
 .advantages {
